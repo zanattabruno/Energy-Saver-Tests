@@ -1,0 +1,26 @@
+affinity: {}
+fullnameOverride: ''
+image:
+  args:
+    e2term: 10.43.0.225
+    mcc: 724
+    mnc: 11
+    nodebid: 2
+    port: 30001
+  command: e2sim
+  pullPolicy: IfNotPresent
+  repository: zanattabruno/e2sim-rc
+  tag: 'sbrc-24'
+nameOverride: ''
+#nodeSelector:
+  #kubernetes.io/hostname: node2
+podAnnotations: {}
+podSecurityContext: {}
+replicaCount: 1
+resources: {}
+service:
+  port: 8081
+  tls: []
+  type: ClusterIP
+  typehandover: NodePort
+tolerations: []

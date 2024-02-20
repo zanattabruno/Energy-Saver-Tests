@@ -1,0 +1,55 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-envman
+data:
+  application.yaml: |-
+    ues: 
+      quantity: 10
+
+    antennae:
+      - name: "E2node1"
+        endpoint: "http://e2node1-e2sim-helm.ricplt:8081/v1"
+        location: [47.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 7175 # MHz
+        power: 10 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node2"
+        endpoint: "http://e2node2-e2sim-helm.ricplt:8081/v1"
+        location: [47.0, 87.0, 25.0]
+        numerology: 4
+        frequency: 7275
+        power: 10 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: envman-sbrc-24
+  labels:
+    app: envman-sbrc-24
+spec:
+  hostname: envman-sbrc-24
+  volumes:
+    - name: configmap-volume
+      configMap:
+        name: configmap-envman
+  containers:
+    - name: environment-manager
+      image: docker.io/trbecker/sbrc-24:latest
+      imagePullPolicy: Always
+      command: ["python3"] # Specifies the command to run
+      args: ["experiment.py"] # Specifies the script to run with the command
+      volumeMounts:
+        - name: configmap-volume
+          mountPath: /etc/config/configmap
+      resources:
+        limits:
+          cpu: "1000m"
+          memory: "256Mi"

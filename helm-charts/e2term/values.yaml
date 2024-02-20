@@ -1,0 +1,37 @@
+common_env_variables:
+  ConfigMapName: /etc/config/log-level
+  ServiceName: RIC_E2_TERM
+e2term:
+  alpha:
+    dataVolSize: 100Mi
+    env:
+      messagecollectorfile: /data/outgoing/
+      print: '1'
+    hostnetworkmode: false
+    image:
+      name: zanattabruno/ric-plt-e2
+      registry: registry.hub.docker.com
+      tag: release-g
+    imagePullPolicy: IfNotPresent
+    pizpub:
+      enabled: false
+    privilegedmode: false
+    replicaCount: 1
+    storageClassName: local-storage
+health:
+  liveness:
+    command: ip=`hostname -i`;export RMR_SRC_ID=$ip;/opt/e2/rmr_probe -h $ip
+    enabled: true
+    initialDelaySeconds: 10
+    periodSeconds: 10
+  readiness:
+    command: ip=`hostname -i`;export RMR_SRC_ID=$ip;/opt/e2/rmr_probe -h $ip
+    enabled: true
+    initialDelaySeconds: 120
+    periodSeconds: 60
+loglevel: 4
+nodeSelector:
+  kubernetes.io/hostname: node3
+services:
+  sctp:
+    nodePort: 30003
