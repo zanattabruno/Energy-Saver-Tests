@@ -10,7 +10,7 @@ image:
   command: e2sim
   pullPolicy: IfNotPresent
   repository: zanattabruno/e2sim-rc
-  tag: 'sbrc-24'
+  tag: 'ue_api'
 nameOverride: ''
 #nodeSelector:
   #kubernetes.io/hostname: node2

@@ -10,7 +10,6 @@ data:
 
     antennae:
       - name: "E2node1"
-        gnb_id: 1
         endpoint: "http://e2node1-e2sim-helm.ricplt:8081/v1"
         location: [47.0, 47.0, 25.0]
         numerology: 4
@@ -20,31 +19,10 @@ data:
         bandwidth: 100 # MHz
 
       - name: "E2node2"
-        gnb_id: 2
         endpoint: "http://e2node2-e2sim-helm.ricplt:8081/v1"
         location: [47.0, 87.0, 25.0]
         numerology: 4
         frequency: 7275
-        power: 10 # W
-        gain: 8
-        bandwidth: 100 # MHz
-
-      - name: "E2node3"
-        gnb_id: 3
-        endpoint: "http://e2node3-e2sim-helm.ricplt:8081/v1"
-        location: [47.0, 127.0, 25.0]
-        numerology: 4
-        frequency: 7375
-        power: 10 # W
-        gain: 8
-        bandwidth: 100 # MHz
-
-      - name: "E2node4"
-        gnb_id: 4
-        endpoint: "http://e2node4-e2sim-helm.ricplt:8081/v1"
-        location: [157.0, 47.0, 25.0]
-        numerology: 4
-        frequency: 7475
         power: 10 # W
         gain: 8
         bandwidth: 100 # MHz
@@ -65,7 +43,7 @@ spec:
             name: configmap-envman
       containers:
         - name: environment-manager
-          image: docker.io/trbecker/sbrc-24:latest
+          image: docker.io/trbecker/sbrc-24:stable
           imagePullPolicy: Always
           command: ["python3"] # Specifies the command to run
           args: ["experiment.py"] # Specifies the script to run with the command
