@@ -15,7 +15,7 @@ data:
         location: [47.0, 47.0, 25.0]
         numerology: 4
         frequency: 7175 # MHz
-        power: 10 # W
+        power: 1 # W
         gain: 8
         bandwidth: 100 # MHz
 
@@ -25,7 +25,7 @@ data:
         location: [47.0, 87.0, 25.0]
         numerology: 4
         frequency: 7275
-        power: 10 # W
+        power: 1 # W
         gain: 8
         bandwidth: 100 # MHz
 
@@ -35,7 +35,7 @@ data:
         location: [47.0, 127.0, 25.0]
         numerology: 4
         frequency: 7375
-        power: 10 # W
+        power: 1 # W
         gain: 8
         bandwidth: 100 # MHz
 
@@ -45,7 +45,7 @@ data:
         location: [157.0, 47.0, 25.0]
         numerology: 4
         frequency: 7475
-        power: 10 # W
+        power: 1 # W
         gain: 8
         bandwidth: 100 # MHz
 
