@@ -10,7 +10,7 @@ image:
   command: e2sim
   pullPolicy: IfNotPresent
   repository: zanattabruno/e2sim-rc
-  tag: 'ue_api'
+  tag: 'TNSM-24'
 nameOverride: ''
 #nodeSelector:
   #kubernetes.io/hostname: node2
@@ -19,7 +19,8 @@ podSecurityContext: {}
 replicaCount: 1
 resources: {}
 service:
-  port: 8081
+  portSimulator: 8081
+  portO1: 8090
   tls: []
   type: ClusterIP
   typehandover: NodePort

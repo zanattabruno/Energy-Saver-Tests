@@ -27,6 +27,9 @@ spec:
             - name: simulator
               containerPort: 8081
               protocol: TCP
+            - name: o1
+              containerPort: 8090
+              protocol: TCP
           command: ["{{ .Values.image.command }}"]
           args: ["{{ .Values.image.args.e2term }}", "--mcc", "{{ .Values.image.args.mcc }}", "--mnc", "{{ .Values.image.args.mnc }}", "--nodebid", "{{ .Values.image.args.nodebid }}", "-p", "{{ .Values.image.args.port }}"]          
           resources:
