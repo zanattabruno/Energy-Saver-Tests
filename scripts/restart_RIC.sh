@@ -9,5 +9,4 @@ kubectl rollout restart deployment deployment-ricplt-rtmgr -n ricplt
 kubectl rollout restart deployment deployment-ricplt-submgr -n ricplt
 kubectl rollout restart deployment deployment-ricplt-vespamgr -n ricplt
 
-kubectl rollout restart deployment ric-o-r-app-ric-o-rapp -n ricrapp
-kubectl rollout restart deployment ric-o-smo-app-ric-o-smoapp -n smo
+kubectl delete -f experiment.yaml -n ricplt
