@@ -31,4 +31,3 @@ kubectl rollout restart statefulset informationservice -n nonrtric
 kubectl delete pvc informationservice-vardata-informationservice-0 -n nonrtric
 kubectl rollout restart statefulset policymanagementservice -n nonrtric
 kubectl delete pvc policymanagementservice-vardata-policymanagementservice-0 -n nonrtric
-

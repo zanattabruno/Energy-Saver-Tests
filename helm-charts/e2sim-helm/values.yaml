@@ -8,7 +8,7 @@ image:
     nodebid: 2
     port: 30001
   command: e2sim
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   repository: zanattabruno/e2sim-rc
   tag: 'TNSM-24'
 nameOverride: ''

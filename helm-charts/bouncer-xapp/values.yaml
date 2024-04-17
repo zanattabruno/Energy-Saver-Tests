@@ -62,7 +62,7 @@ containers:
 - image:
     name: zanattabruno/bouncer-rc
     registry: registry.hub.docker.com
-    tag: ue_api
+    tag: TNSM-24
   name: bouncer-xapp
   command: ["b_xapp_main"]
   args: ["--mcc", "724", "--mnc", "11", "--nodebid", "2"]
