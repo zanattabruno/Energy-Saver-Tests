@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: envman-sbrc-24-deployment
+spec:
+  replicas: 1 # Specify the number of pods to run
+  selector:
+    matchLabels:
+      app: environment-manager
+  template:
+    metadata:
+      labels:
+        app: environment-manager
+    spec:
+      hostname: envman-sbrc-24
+      volumes:
+        - name: configmap-volume
+          configMap:
+            name: configmap-envman
+      containers:
+        - name: environment-manager
+          image: docker.io/trbecker/sbrc-24:0.0.2
+          imagePullPolicy: Always
+          command: ["python3"]
+          args: ["experiment.py"]
+          volumeMounts:
+            - name: configmap-volume
+              mountPath: /etc/config/configmap
+          ports:
+            - containerPort: 8080 # Expose port 8080 on the container
+          resources:
+            limits:
+              cpu: "1000m"
+              memory: "256Mi"
