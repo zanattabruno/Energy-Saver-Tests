@@ -1,0 +1,61 @@
+{
+  "name": "E2Node UE Energy Policy Type Schema",
+  "description": "Defines the UE connections for E2Nodes focusing on management to enhance energy efficiency.",
+  "policy_type_id": 5,
+  "create_schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "E2Node UE Energy Policy Configuration",
+    "description": "A schema to Defines the UE connections for E2Nodes focusing on management to enhance energy efficiency",
+    "type": "object",
+    "properties": {
+      "E2NodeList": {
+        "type": "array",
+        "description": "A list of E2Nodes, each defined by specific parameters including Mobile Country Code, Mobile Network Code, NodeB Identifier, and a list of UE (User Equipment) with IMSIs.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "mcc": {
+              "type": "string",
+              "description": "Mobile Country Code identifying the country of the mobile subscriber."
+            },
+            "mnc": {
+              "type": "string",
+              "description": "Mobile Network Code identifying the home network of the mobile subscriber."
+            },
+            "nodebid": {
+              "type": "string",
+              "description": "NodeB Identifier uniquely identifying a NodeB within a mobile network."
+            },
+            "UEList": {
+              "type": "array",
+              "description": "A list of User Equipment identified by IMSIs.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "imsi": {
+                    "type": "string",
+                    "description": "International Mobile Subscriber Identity uniquely identifying a user of a cellular network."
+                  }
+                },
+                "required": [
+                  "imsi"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "mcc",
+            "mnc",
+            "nodebid"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "E2NodeList"
+    ],
+    "additionalProperties": false
+  }
+}
