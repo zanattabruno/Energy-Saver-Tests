@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: envman-sbrc-24-service
+  name: envman-service
 spec:
-  type: ClusterIP # Default type, accessible only within cluster
+  type: ClusterIP 
   selector:
     app: environment-manager
   ports:
     - protocol: TCP
       port: 8080
-      targetPort: 8080 # Assuming the container also exposes this port
+      targetPort: 8080 

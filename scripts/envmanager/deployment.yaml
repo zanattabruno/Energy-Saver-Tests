@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: envman-sbrc-24-deployment
+  name: envman-deployment
 spec:
   replicas: 1 # Specify the number of pods to run
   selector:
@@ -12,14 +12,14 @@ spec:
       labels:
         app: environment-manager
     spec:
-      hostname: envman-sbrc-24
+      hostname: envman
       volumes:
         - name: configmap-volume
           configMap:
-            name: configmap-envman
+            name: envman-configmap
       containers:
         - name: environment-manager
-          image: docker.io/trbecker/sbrc-24:0.0.2
+          image: docker.io/trbecker/sbrc-24:656fcfc25f312a0fa8aab1ed4146947fd69f84b9
           imagePullPolicy: Always
           command: ["python3"]
           args: ["experiment.py"]
