@@ -7,6 +7,7 @@ image:
     mnc: 11
     nodebid: 2
     port: 30001
+    ue_mgr: http://envman-service.ricplt.svc.cluster.local:8080
   command: e2sim
   pullPolicy: Always
   repository: zanattabruno/e2sim-rc
