@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "energy-saver-rapp.fullname" . }}-config
+data:
+  config.yaml: |
+    logging:
+      level: {{ .Values.app.logging.level }}
+    E2NodeList:
+    {{- toYaml .Values.app.E2NodeList | nindent 4 }}
+    O1:
+      E2Nodes:
+      {{- toYaml .Values.app.O1.E2Nodes | nindent 6 }}
+      radioPower_off_gain: {{ .Values.app.O1.radioPower_off_gain }}
+    trigger:
+      interval:
+        enable: {{ .Values.app.trigger.interval.enable }}
+        seconds: {{ .Values.app.trigger.interval.seconds }}
+      user_variation:
+        enable: {{ .Values.app.trigger.user_variation.enable }}
+        percentage: {{ .Values.app.trigger.user_variation.percentage }}
+        min_time_since_last_run_seconds: {{ .Values.app.trigger.user_variation.min_time_since_last_run_seconds }}
+    nonrtric:
+      base_url_rApp_catalogue: '{{ .Values.app.nonrtric.base_url_rApp_catalogue }}'
+      base_url_pms: '{{ .Values.app.nonrtric.base_url_pms }}'
+      service_name: '{{ .Values.app.nonrtric.service_name }}'
+      service_version: '{{ .Values.app.nonrtric.service_version }}'
+      service_display_name: '{{ .Values.app.nonrtric.service_display_name }}'
+      service_description: '{{ .Values.app.nonrtric.service_description }}'
+      ric_id: '{{ .Values.app.nonrtric.ric_id }}'
+      policytype_id: '{{ .Values.app.nonrtric.policytype_id }}'
+    kafka:
+      bootstrap_servers: "{{ .Values.app.kafka.bootstrap_servers }}"
+      port: {{ .Values.app.kafka.port }}
+      enable_auto_commit: {{ .Values.app.kafka.enable_auto_commit }}
+      auto_commit_interval_ms: {{ .Values.app.kafka.auto_commit_interval_ms }}
+      auto_offset_reset: "{{ .Values.app.kafka.auto_offset_reset }}"
+      group_id: "{{ .Values.app.kafka.group_id }}"
+      client_id: "{{ .Values.app.kafka.client_id }}"
+      poll_timeout_seconds: {{ .Values.app.kafka.poll_timeout_seconds }}
+      topics:
+      {{- toYaml .Values.app.kafka.topics | nindent 6 }}

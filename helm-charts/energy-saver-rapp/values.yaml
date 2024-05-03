@@ -1,0 +1,84 @@
+# Default values for energy-saver-rapp.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image:
+  repository: zanattabruno/rapp_energy-saver
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+
+resources: {}
+  # We usually recommend not to specify default resources and to leave this as a conscious
+  # choice for the user. This also increases chances charts run on environments with little
+  # resources, such as Minikube. If you do want to specify resources, uncomment the following
+  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  # limits:
+  #   cpu: 100m
+  #   memory: 128Mi
+  # requests:
+  #   cpu: 100m
+  #   memory: 128Mi
+
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+# This file contains the configuration values for the Energy Saver Rapp application.
+
+app:
+  logging:
+    level: INFO  # The logging level for the application.
+
+  E2NodeList:
+    - mcc: 310  # The Mobile Country Code for the E2Node.
+      mnc: 260  # The Mobile Network Code for the E2Node.
+      nodebid: 10001  # The Node B ID for the E2Node.
+      radioPower: 18.5  # The radio power for the E2Node in dBm.
+    - mcc: 311  # The Mobile Country Code for the E2Node.
+      mnc: 480  # The Mobile Network Code for the E2Node.
+      nodebid: 10002  # The Node B ID for the E2Node.
+      radioPower: 22.0  # The radio power for the E2Node in dBm.
+
+  O1:
+    E2Nodes:
+      - '72401100000001': 'http://e2node1-e2sim-helm-o1.ricplt:8090/restconf/operations/tx-gain'  # The URL for E2Node 1.
+      - '72401100000002': 'http://e2node2-e2sim-helm-o1.ricplt:8090/restconf/operations/tx-gain'  # The URL for E2Node 2.
+      - '72401100000003': 'http://e2node3-e2sim-helm-o1.ricplt:8090/restconf/operations/tx-gain'  # The URL for E2Node 3.
+      - '72401100000004': 'http://e2node4-e2sim-helm-o1.ricplt:8090/restconf/operations/tx-gain'  # The URL for E2Node 4.
+    radioPower_off_gain: -1  # The radio power off gain.
+
+  trigger:
+    interval:
+      enable: False  # Enable or disable the trigger interval.
+      seconds: 10  # The interval in seconds.
+    user_variation:
+      enable: True  # Enable or disable user variation.
+      percentage: 0.2  # The percentage of variation.
+      min_time_since_last_run_seconds: 10  # The minimum time since the last run in seconds.
+
+  nonrtric:
+    base_url_rApp_catalogue: 'http://rappcatalogueservice.nonrtric.svc.cluster.local:9085/services'  # The base URL for the rApp catalogue service.
+    base_url_pms: 'http://nonrtricgateway.nonrtric.svc.cluster.local:9090/a1-policy/v2'  # The base URL for the PMS service.
+    service_name: 'rAppEnergySaver'  # The name of the service.
+    service_version: 'v1'  # The version of the service.
+    service_display_name: 'rApp Energy Saver'  # The display name of the service.
+    service_description: 'Energy-saving application for optimizing power consumption of E2Nodes'  # The description of the service.
+    ric_id: 'ric4'  # The RIC ID.
+    policytype_id: '5'  # The policy type ID.
+
+  kafka:
+    bootstrap_servers: "kafka.smo.svc.cluster.local"  # The bootstrap servers for Kafka.
+    port: 9092  # The port for Kafka.
+    enable_auto_commit: True  # Enable or disable auto commit.
+    auto_commit_interval_ms: 6000  # The auto commit interval in milliseconds.
+    auto_offset_reset: "latest"  # The auto offset reset configuration.
+    group_id: "rAppEnergySaver"  # The group ID for Kafka consumer.
+    client_id: "rAppEnergySaver"  # The client ID for Kafka consumer.
+    poll_timeout_seconds: 1  # The poll timeout in seconds.
+    topics:  # The topics for Kafka.
+    - ues
