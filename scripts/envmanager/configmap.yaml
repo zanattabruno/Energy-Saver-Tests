@@ -5,7 +5,7 @@ metadata:
 data:
   application.yaml: |-
     ues: 
-      quantity: 10
+      quantity: 256
 
     antennae:
       - name: "E2node1"

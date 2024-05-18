@@ -38,6 +38,8 @@ helm upgrade --install e2node4 ../helm-charts/e2sim-helm \
     --set image.args.port=30001 \
     -n ricplt --wait
 
+sleep 10
+
 helm upgrade --install xappmonitoring1 ../helm-charts/bouncer-xapp \
     --set containers[0].image.name="zanattabruno/bouncer-rc" \
     --set containers[0].image.registry="registry.hub.docker.com" \
@@ -94,14 +96,10 @@ helm upgrade --install xappmonitoring4 ../helm-charts/bouncer-xapp \
     --set containers[0].args[5]="4" \
     -n ricxapp --wait
 
-helm upgrade --install handover-xapp ../helm-charts/handover-xapp \
-    -n ricxapp --wait
-
-bash policy_enode_ue/create_policy_type.bash
+helm upgrade --install handover-xapp ../helm-charts/handover-xapp -n ricxapp --wait
 
 kubectl apply -f envmanager -n ricplt
 
-sleep 30
+#sleep 45
 
-helm upgrade --install energy-saver-rapp ../helm-charts/energy-saver-rapp \
-    -n ricrapp --wait
+#helm upgrade --install energy-saver-rapp ../helm-charts/energy-saver-rapp -n ricrapp --wait

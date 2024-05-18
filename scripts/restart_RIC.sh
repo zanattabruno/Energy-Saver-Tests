@@ -12,6 +12,8 @@ kubectl rollout restart deployment deployment-ricplt-o1mediator -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-rtmgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-submgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-vespamgr -n ricplt & 
+kubectl rollout restart deployment r4-infrastructure-prometheus-server  -n ricplt &
+kubectl rollout restart deployment r4-infrastructure-prometheus-alertmanager -n ricplt &
 
 echo "Restarting Non-RT RIC..." 
 kubectl rollout restart deployment a1controller -n nonrtric &
@@ -33,4 +35,16 @@ kubectl delete pvc helmmanager-vardata-helmmanager-0 -n nonrtric &
 kubectl rollout restart statefulset informationservice -n nonrtric &&
 kubectl delete pvc informationservice-vardata-informationservice-0 -n nonrtric &
 kubectl rollout restart statefulset policymanagementservice -n nonrtric &&
-kubectl delete pvc policymanagementservice-vardata-policymanagementservice-0 -n nonrtric
+kubectl delete pvc policymanagementservice-vardata-policymanagementservice-0 -n nonrtric &
+
+echo "Restarting SMO"
+kubectl rollout restart deployment chronograf-chronograf -n smo &
+kubectl rollout restart deployment influxdb-connector -n smo &
+kubectl rollout restart deployment kafdrop -n smo &
+kubectl rollout restart deployment ves-collector -n smo &
+kubectl rollout restart statefulset influxdb  -n smo &&
+kubectl delete pvc influxdb-data-influxdb-0 -n smo &
+kubectl rollout restart statefulset kafka  -n smo &&
+kubectl delete pvc data-kafka-0 -n smo &
+kubectl rollout restart statefulset kafka-zookeeper  -n smo &&
+kubectl delete pvc data-kafka-zookeeper-0 -n smo
