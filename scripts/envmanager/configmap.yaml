@@ -5,8 +5,7 @@ metadata:
 data:
   application.yaml: |-
     ues: 
-      quantity: 256
-
+      quantity: 128
     antennae:
       - name: "E2node1"
         gnb_id: 1

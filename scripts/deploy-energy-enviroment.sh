@@ -100,6 +100,6 @@ helm upgrade --install handover-xapp ../helm-charts/handover-xapp -n ricxapp --w
 
 kubectl apply -f envmanager -n ricplt
 
-#sleep 45
+sleep 45
 
-#helm upgrade --install energy-saver-rapp ../helm-charts/energy-saver-rapp -n ricrapp --wait
+helm upgrade --install energy-saver-rapp ../helm-charts/energy-saver-rapp -n ricrapp --wait

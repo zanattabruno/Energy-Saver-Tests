@@ -59,7 +59,7 @@ app:
     user_variation:
       enable: True  # Enable or disable user variation.
       percentage: 0.2  # The percentage of variation.
-      min_time_since_last_run_seconds: 150  # The minimum time since the last run in seconds.
+      min_time_since_last_run_seconds: 90  # The minimum time since the last run in seconds.
 
   nonrtric:
     base_url_rApp_catalogue: 'http://rappcatalogueservice.nonrtric.svc.cluster.local:9085/services'  # The base URL for the rApp catalogue service.

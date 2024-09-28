@@ -2,7 +2,7 @@
 echo "Cleaning..."
 bash remove_opt.sh 
 
-echo "Restarting Near-RT RIC..."
+echo "Restarting Near-RT RIC..." &&
 kubectl rollout restart statefulset statefulset-ricplt-dbaas-server -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-a1mediator -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-alarmmanager -n ricplt &
@@ -13,9 +13,9 @@ kubectl rollout restart deployment deployment-ricplt-rtmgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-submgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-vespamgr -n ricplt & 
 kubectl rollout restart deployment r4-infrastructure-prometheus-server  -n ricplt &
-kubectl rollout restart deployment r4-infrastructure-prometheus-alertmanager -n ricplt &
+kubectl rollout restart deployment r4-infrastructure-prometheus-alertmanager -n ricplt
 
-echo "Restarting Non-RT RIC..." 
+echo "Restarting Non-RT RIC..." &&
 kubectl rollout restart deployment a1controller -n nonrtric &
 kubectl rollout restart deployment capifcore -n nonrtric &
 kubectl rollout restart deployment controlpanel -n nonrtric &
@@ -35,9 +35,9 @@ kubectl delete pvc helmmanager-vardata-helmmanager-0 -n nonrtric &
 kubectl rollout restart statefulset informationservice -n nonrtric &&
 kubectl delete pvc informationservice-vardata-informationservice-0 -n nonrtric &
 kubectl rollout restart statefulset policymanagementservice -n nonrtric &&
-kubectl delete pvc policymanagementservice-vardata-policymanagementservice-0 -n nonrtric &
+kubectl delete pvc policymanagementservice-vardata-policymanagementservice-0 -n nonrtric
 
-echo "Restarting SMO"
+echo "Restarting SMO" &&
 kubectl rollout restart deployment chronograf-chronograf -n smo &
 kubectl rollout restart deployment influxdb-connector -n smo &
 kubectl rollout restart deployment kafdrop -n smo &

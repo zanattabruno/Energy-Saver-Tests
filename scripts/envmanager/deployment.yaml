@@ -19,7 +19,7 @@ spec:
             name: envman-configmap
       containers:
         - name: environment-manager
-          image: docker.io/trbecker/sbrc-24:dac234d1ffdc3ab34bf34f6a5de3efd472967810 
+          image: docker.io/trbecker/sbrc-24:v1
           imagePullPolicy: Always
           command: ["python3"]
           args: ["experiment.py"]
