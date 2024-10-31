@@ -42,12 +42,13 @@ Welcome to the **Energy-Saver-Tests** repository! This repository contains all t
   - [Key Scripts](#key-scripts)
   - [Environment Management](#environment-management)
   - [Additional Resources](#additional-resources)
+- [Related Repositories](#related-repositories)
 - [Docker Configuration](#docker-configuration)
   - [CPLEX Docker Configuration](#cplex-docker-configuration)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Reference](#reference)
+- [Related Repositories](#related-repositories)
 
 ---
 
@@ -529,6 +530,26 @@ Located in the `scripts/envmanager` directory, these scripts handle environment-
 - **scrape-output*.txt**: Output files from scraping operations.
 - **scrape-time.sh**: Script to scrape timing data.
 
+## Related Repositories
+
+This project utilizes several other repositories that contain components essential for the deployment and functioning of the Energy Saver application. Below is a list of these repositories along with brief descriptions:
+
+- [**Energy-Saver-rApp**](https://github.com/zanattabruno/Energy-Saver-rApp): Repository for the **Energy Saver rApp**, which implements energy-efficient algorithms and interfaces with the RIC platform to optimize energy usage in 6G networks.
+
+- [**Handover XApp**](https://github.com/alexandre-huff/handover-xapp): Contains the **Handover XApp**, responsible for managing the handover processes between network cells, ensuring seamless connectivity and quality of service.
+
+- [**Monitoring XApp (Bouncer RC)**](https://github.com/alexandre-huff/bouncer-rc/tree/TNSM-24): The repository for the **Monitoring XApp**, also known as Bouncer RC. This component monitors network conditions and performance metrics, providing vital data for adaptive network management.
+
+- [**E2 Simulator (E2Sim RC)**](https://github.com/alexandre-huff/e2sim-rc/tree/TNSM-24): Repository for the **E2 Node Simulator** used in the deployment, simulating the behavior of E2 Nodes in the network to test and validate xApps and rApps.
+
+- [**RIC Platform VESPA Manager**](https://github.com/zanattabruno/ric-plt-vespamgr): An updated version of the **VESPA Manager** from the O-RAN Software Community. It manages the VES agents on the RIC platform, handling event streaming and processing.
+
+- [**VES Collector**](https://github.com/zanattabruno/ves-collector): Repository for the **VES (Virtual Event Streaming) Collector**, which collects and processes event data from various network components, facilitating analytics and decision-making processes.
+
+- [**InfluxDB Connector**](https://github.com/zanattabruno/influxdb-connector): The **InfluxDB Connector** interfaces with InfluxDB to store and retrieve time-series data for analysis, essential for monitoring network performance and energy consumption.
+
+- [**E2Sim Environment Manager**](https://github.com/LABORA-INF-UFG/e2sim_environment_manager): Contains the **Environment Manager** for the E2 Simulator, handling environment-specific configurations and deployments to streamline simulation processes.
+
 ## Docker Configuration
 
 The `Dockerfiles` directory contains Docker configurations for building container images required by the application.
@@ -589,4 +610,5 @@ If you have any questions or need further assistance, feel free to reach out:
 
 - **Email**: gkbsa2504@gmail.com
 - **GitHub**: [zanattabruno](https://github.com/zanattabruno)
+
 
