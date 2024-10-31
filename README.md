@@ -70,117 +70,42 @@ The **Energy-Saver-Tests** repository is designed to streamline the deployment a
 │   ├── bouncer-xapp
 │   │   ├── Chart.yaml
 │   │   ├── config
-│   │   │   └── config-file.json
 │   │   ├── descriptors
-│   │   │   └── schema.json
 │   │   ├── templates
-│   │   │   ├── appconfig.yaml
-│   │   │   ├── appenv.yaml
-│   │   │   ├── deployment.yaml
-│   │   │   ├── _helpers.tpl
-│   │   │   ├── service-http.yaml
-│   │   │   ├── service-prometheus.yaml
-│   │   │   └── service-rmr.yaml
 │   │   └── values.yaml
 │   ├── e2sim-helm
 │   │   ├── Chart.yaml
 │   │   ├── templates
-│   │   │   ├── deployment.yaml
-│   │   │   ├── _helpers.tpl
-│   │   │   ├── NOTES.txt
-│   │   │   ├── service-O1.yaml
-│   │   │   ├── service-simulator.yaml
-│   │   │   └── tests
-│   │   │       └── test-connection.yaml
 │   │   └── values.yaml
 │   ├── e2term
 │   │   ├── charts
-│   │   │   └── ric-common
-│   │   │       ├── Chart.yaml
-│   │   │       ├── templates
-│   │   │       │   ├── _a1mediator.tpl
-│   │   │       │   ├── _alarmadapter.tpl
-│   │   │       │   ├── _appmgr.tpl
-│   │   │       │   ├── _chart.tpl
-│   │   │       │   ├── _context_locator.tpl
-│   │   │       │   ├── _dashboard.tpl
-│   │   │       │   ├── _dbaas.tpl
-│   │   │       │   ├── _docker.tpl
-│   │   │       │   ├── _e2mgr.tpl
-│   │   │       │   ├── _e2term.tpl
-│   │   │       │   ├── _esreader.tpl
-│   │   │       │   ├── _ingress_controller.tpl
-│   │   │       │   ├── _jaegeradapter.tpl
-│   │   │       │   ├── _logstash.tpl
-│   │   │       │   ├── _messagerouter.tpl
-│   │   │       │   ├── _mrsub.tpl
-│   │   │       │   ├── _namespace.tpl
-│   │   │       │   ├── _o1mediator.tpl
-│   │   │       │   ├── _rsm.tpl
-│   │   │       │   ├── _rtmgr.tpl
-│   │   │       │   ├── _submgr.tpl
-│   │   │       │   ├── _tiller.tpl
-│   │   │       │   ├── _vespamgr.tpl
-│   │   │       │   ├── _ves.tpl
-│   │   │       │   └── _xapp_onboarder.tpl
-│   │   │       └── values.yaml
 │   │   ├── Chart.yaml
 │   │   ├── requirements.lock
 │   │   ├── requirements.yaml
 │   │   ├── resources
-│   │   │   ├── cleaner.sh
-│   │   │   ├── configfile.properties
-│   │   │   └── pizpub.crontab
 │   │   ├── templates
-│   │   │   ├── configmap-pizpub.yaml
-│   │   │   ├── configmap.yaml
-│   │   │   ├── deployment.yaml
-│   │   │   ├── env.yaml
-│   │   │   ├── pvc.yaml
-│   │   │   ├── pv.yaml
-│   │   │   ├── service-prometheus.yaml
-│   │   │   ├── service-rmr.yaml
-│   │   │   └── service-sctp.yaml
 │   │   └── values.yaml
 │   ├── energy-saver-rapp
 │   │   ├── charts
-│   │   │   
 │   │   ├── Chart.yaml
 │   │   ├── templates
-│   │   │   ├── configmap.yaml
-│   │   │   ├── deployment.yaml
-│   │   │   └── _helpers.tpl
 │   │   └── values.yaml
 │   └── handover-xapp
 │       ├── Chart.yaml
 │       ├── config
-│       │   └── config-file.json
 │       ├── descriptors
-│       │   └── schema.json
 │       ├── templates
-│       │   ├── appconfig.yaml
-│       │   ├── appenv.yaml
-│       │   ├── deployment.yaml
-│       │   ├── _helpers.tpl
-│       │   ├── service-http.yaml
-│       │   └── service-rmr.yaml
 │       └── values.yaml
 ├── LICENSE
 ├── README.md
 ├── results
 │   ├── energy-results
 │   │   ├── out
-│   │   │   ├── energy-analysis.pdf
-│   │   │   └── energy-analysis.png
 │   │   ├── Plot1.ipynb
 │   │   ├── Plot2.ipynb
 │   │   └── Plot3.ipynb
 │   ├── net-time-detailed
 │   │   ├── out
-│   │   │   ├── detailed-times-side.pdf
-│   │   │   ├── detailed-times-side.png
-│   │   │   ├── detailed-times-stacked.pdf
-│   │   │   └── detailed-times-stacked.png
 │   │   ├── Plot2.ipynb
 │   │   ├── Plot3.ipynb
 │   │   ├── Plot4.ipynb
@@ -190,51 +115,34 @@ The **Energy-Saver-Tests** repository is designed to streamline the deployment a
 │   │   └── Plot.ipynb
 │   ├── net-time-overral
 │   │   ├── out
-│   │   │   ├── end-to-end.pdf
-│   │   │   └── end-to-end.png
 │   │   └── Plot.ipynb
 │   ├── radar-results
 │   │   ├── out
-│   │   │   ├── energy-radar.pdf
-│   │   │   └── energy-radar.png
 │   │   └── Plot.ipynb
 │   ├── rApp-energy-saver
 │   │   ├── out
-│   │   │   ├── rApp-energy-saver.pdf
-│   │   │   └── rApp-energy-saver.png
 │   │   ├── Plot2.ipynb
 │   │   └── Plot.ipynb
 │   ├── xApp-handover
 │   │   ├── out
-│   │   │   ├── xApp-handover.pdf
-│   │   │   └── xApp-handover.png
 │   │   ├── Plot2.ipynb
 │   │   └── Plot.ipynb
 │   └── xApp-Monitoring
 │       ├── out
-│       │   ├── xApp-Monitoring.pdf
-│       │   └── xApp-Monitoring.png
 │       └── Plot.ipynb
 └── scripts
     ├── archive
-    │   └── experiment.yaml
     ├── deploy-e2term.py
     ├── deploy-energy-enviroment.sh
     ├── deploy-initial.py
     ├── deployment-map.json
     ├── deploy-use-case.sh
     ├── envmanager
-    │   ├── configmap.yaml
-    │   ├── deployment.yaml
-    │   └── service.yaml
     ├── file.pcap
     ├── handover_payload.json
     ├── handover.sh
     ├── O1-post.sh
     ├── policy_enode_ue
-    │   ├── create_policy_type.bash
-    │   ├── delete_policy_type.bash
-    │   └── E2nodeUESchema.json
     ├── remove_opt.sh
     ├── restart_RIC.sh
     ├── scrape-output1.txt
