@@ -1,1 +1,592 @@
 # Energy-Saver-Tests
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Energy--Saver--Tests-blue.svg)](https://github.com/zanattabruno/Energy-Saver-Tests)
+
+Welcome to the **Energy-Saver-Tests** repository! This repository contains all the necessary scripts, Helm charts, Docker configurations, and resources required to deploy, manage, and test the Energy Saver application within a Kubernetes environment. The repository supports the experimental evaluations and results presented in the paper:
+
+```bibtex
+@ARTICLE{bruno2024energy,
+  author={Bruno, Gustavo Z. and Almeida, Gabriel M. and da Silva, Aloízio P. and DaSilva, Luiz A. and Santos, Joao F. and Huff, Alexandre and Cardoso, Kleber V. and Both, Cristiano B.},
+  journal={In submission process to IEEE Transactions on Network and Service Management},
+  title={Towards Energy- and QoS-aware Load Balancing for 6G: Leveraging O-RAN to Achieve Sustainable and Energy-Efficient 6G},
+  year={2024},
+  volume={XX},
+  number={Y},
+  pages={1-1},
+  keywords={6G, O-RAN, Network Management, Energy Efficiency, QoS, Load Balancing},
+  doi={}
+}
+```
+
+---
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Repository Structure](#repository-structure)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [1. Clone the Repository](#1-clone-the-repository)
+  - [2. Navigate to the Scripts Directory](#2-navigate-to-the-scripts-directory)
+  - [3. Configure Environment](#3-configure-environment)
+  - [4. Run the Deployment Script](#4-run-the-deployment-script)
+- [Detailed Deployment Steps](#detailed-deployment-steps)
+- [Usage](#usage)
+  - [Accessing Services](#accessing-services)
+  - [Monitoring and Logs](#monitoring-and-logs)
+  - [Running Tests](#running-tests)
+- [Results](#results)
+  - [Example Results](#example-results)
+- [Scripts Overview](#scripts-overview)
+  - [Key Scripts](#key-scripts)
+  - [Environment Management](#environment-management)
+  - [Additional Resources](#additional-resources)
+- [Docker Configuration](#docker-configuration)
+  - [CPLEX Docker Configuration](#cplex-docker-configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Reference](#reference)
+
+---
+
+## Introduction
+
+The **Energy-Saver-Tests** repository is designed to streamline the deployment and testing of the Energy Saver application using Kubernetes and Helm. It automates the setup of necessary components, ensuring a seamless and efficient deployment process. This repository supports the experimental evaluations and results presented in our research on enhancing energy efficiency in 6G networks through adaptive network management within O-RAN architectures. It is ideal for developers and DevOps engineers looking to deploy scalable and maintainable applications in a cloud-native environment.
+
+## Repository Structure
+
+```
+├── Dockerfiles
+│   └── CPLEX
+│       ├── build_container_image.sh
+│       ├── cplex_studio2210.linux_x86_64.bin
+│       ├── Dockerfile
+│       └── installer.properties
+├── Energy-Saver-Tests.code-workspace
+├── helm-charts
+│   ├── bouncer-xapp
+│   │   ├── Chart.yaml
+│   │   ├── config
+│   │   │   └── config-file.json
+│   │   ├── descriptors
+│   │   │   └── schema.json
+│   │   ├── templates
+│   │   │   ├── appconfig.yaml
+│   │   │   ├── appenv.yaml
+│   │   │   ├── deployment.yaml
+│   │   │   ├── _helpers.tpl
+│   │   │   ├── service-http.yaml
+│   │   │   ├── service-prometheus.yaml
+│   │   │   └── service-rmr.yaml
+│   │   └── values.yaml
+│   ├── e2sim-helm
+│   │   ├── Chart.yaml
+│   │   ├── templates
+│   │   │   ├── deployment.yaml
+│   │   │   ├── _helpers.tpl
+│   │   │   ├── NOTES.txt
+│   │   │   ├── service-O1.yaml
+│   │   │   ├── service-simulator.yaml
+│   │   │   └── tests
+│   │   │       └── test-connection.yaml
+│   │   └── values.yaml
+│   ├── e2term
+│   │   ├── charts
+│   │   │   └── ric-common
+│   │   │       ├── Chart.yaml
+│   │   │       ├── templates
+│   │   │       │   ├── _a1mediator.tpl
+│   │   │       │   ├── _alarmadapter.tpl
+│   │   │       │   ├── _appmgr.tpl
+│   │   │       │   ├── _chart.tpl
+│   │   │       │   ├── _context_locator.tpl
+│   │   │       │   ├── _dashboard.tpl
+│   │   │       │   ├── _dbaas.tpl
+│   │   │       │   ├── _docker.tpl
+│   │   │       │   ├── _e2mgr.tpl
+│   │   │       │   ├── _e2term.tpl
+│   │   │       │   ├── _esreader.tpl
+│   │   │       │   ├── _ingress_controller.tpl
+│   │   │       │   ├── _jaegeradapter.tpl
+│   │   │       │   ├── _logstash.tpl
+│   │   │       │   ├── _messagerouter.tpl
+│   │   │       │   ├── _mrsub.tpl
+│   │   │       │   ├── _namespace.tpl
+│   │   │       │   ├── _o1mediator.tpl
+│   │   │       │   ├── _rsm.tpl
+│   │   │       │   ├── _rtmgr.tpl
+│   │   │       │   ├── _submgr.tpl
+│   │   │       │   ├── _tiller.tpl
+│   │   │       │   ├── _vespamgr.tpl
+│   │   │       │   ├── _ves.tpl
+│   │   │       │   └── _xapp_onboarder.tpl
+│   │   │       └── values.yaml
+│   │   ├── Chart.yaml
+│   │   ├── requirements.lock
+│   │   ├── requirements.yaml
+│   │   ├── resources
+│   │   │   ├── cleaner.sh
+│   │   │   ├── configfile.properties
+│   │   │   └── pizpub.crontab
+│   │   ├── templates
+│   │   │   ├── configmap-pizpub.yaml
+│   │   │   ├── configmap.yaml
+│   │   │   ├── deployment.yaml
+│   │   │   ├── env.yaml
+│   │   │   ├── pvc.yaml
+│   │   │   ├── pv.yaml
+│   │   │   ├── service-prometheus.yaml
+│   │   │   ├── service-rmr.yaml
+│   │   │   └── service-sctp.yaml
+│   │   └── values.yaml
+│   ├── energy-saver-rapp
+│   │   ├── charts
+│   │   │   
+│   │   ├── Chart.yaml
+│   │   ├── templates
+│   │   │   ├── configmap.yaml
+│   │   │   ├── deployment.yaml
+│   │   │   └── _helpers.tpl
+│   │   └── values.yaml
+│   └── handover-xapp
+│       ├── Chart.yaml
+│       ├── config
+│       │   └── config-file.json
+│       ├── descriptors
+│       │   └── schema.json
+│       ├── templates
+│       │   ├── appconfig.yaml
+│       │   ├── appenv.yaml
+│       │   ├── deployment.yaml
+│       │   ├── _helpers.tpl
+│       │   ├── service-http.yaml
+│       │   └── service-rmr.yaml
+│       └── values.yaml
+├── LICENSE
+├── README.md
+├── results
+│   ├── energy-results
+│   │   ├── out
+│   │   │   ├── energy-analysis.pdf
+│   │   │   └── energy-analysis.png
+│   │   ├── Plot1.ipynb
+│   │   ├── Plot2.ipynb
+│   │   └── Plot3.ipynb
+│   ├── net-time-detailed
+│   │   ├── out
+│   │   │   ├── detailed-times-side.pdf
+│   │   │   ├── detailed-times-side.png
+│   │   │   ├── detailed-times-stacked.pdf
+│   │   │   └── detailed-times-stacked.png
+│   │   ├── Plot2.ipynb
+│   │   ├── Plot3.ipynb
+│   │   ├── Plot4.ipynb
+│   │   ├── Plot5.ipynb
+│   │   ├── Plot6.ipynb
+│   │   ├── Plot7.ipynb
+│   │   └── Plot.ipynb
+│   ├── net-time-overral
+│   │   ├── out
+│   │   │   ├── end-to-end.pdf
+│   │   │   └── end-to-end.png
+│   │   └── Plot.ipynb
+│   ├── radar-results
+│   │   ├── out
+│   │   │   ├── energy-radar.pdf
+│   │   │   └── energy-radar.png
+│   │   └── Plot.ipynb
+│   ├── rApp-energy-saver
+│   │   ├── out
+│   │   │   ├── rApp-energy-saver.pdf
+│   │   │   └── rApp-energy-saver.png
+│   │   ├── Plot2.ipynb
+│   │   └── Plot.ipynb
+│   ├── xApp-handover
+│   │   ├── out
+│   │   │   ├── xApp-handover.pdf
+│   │   │   └── xApp-handover.png
+│   │   ├── Plot2.ipynb
+│   │   └── Plot.ipynb
+│   └── xApp-Monitoring
+│       ├── out
+│       │   ├── xApp-Monitoring.pdf
+│       │   └── xApp-Monitoring.png
+│       └── Plot.ipynb
+└── scripts
+    ├── archive
+    │   └── experiment.yaml
+    ├── deploy-e2term.py
+    ├── deploy-energy-enviroment.sh
+    ├── deploy-initial.py
+    ├── deployment-map.json
+    ├── deploy-use-case.sh
+    ├── envmanager
+    │   ├── configmap.yaml
+    │   ├── deployment.yaml
+    │   └── service.yaml
+    ├── file.pcap
+    ├── handover_payload.json
+    ├── handover.sh
+    ├── O1-post.sh
+    ├── policy_enode_ue
+    │   ├── create_policy_type.bash
+    │   ├── delete_policy_type.bash
+    │   └── E2nodeUESchema.json
+    ├── remove_opt.sh
+    ├── restart_RIC.sh
+    ├── scrape-output1.txt
+    ├── scrape-output2.txt
+    ├── scrape-output3.txt
+    ├── scrape-output4.txt
+    ├── scrape-time.sh
+    └── trigger.sh
+```
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Operating System**: Linux or macOS
+- **Software**:
+  - [Docker](https://docs.docker.com/get-docker/) installed and running
+  - [Kubernetes](https://kubernetes.io/docs/tasks/tools/) cluster set up
+  - [Helm](https://helm.sh/docs/intro/install/) installed
+  - [Python 3](https://www.python.org/downloads/) installed
+  - [kubectl](https://kubernetes.io/docs/tasks/tools/) installed and configured
+- **Permissions**:
+  - Sufficient permissions to deploy resources to the Kubernetes cluster
+  - Access to Docker Hub or relevant container registries
+
+## Installation
+
+Follow these steps to get the Energy Saver application up and running.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/zanattabruno/Energy-Saver-Tests.git
+cd Energy-Saver-Tests
+```
+
+### 2. Navigate to the Scripts Directory
+
+All deployment scripts are located within the `scripts` directory.
+
+```bash
+cd scripts
+```
+
+### 3. Configure Environment
+
+Before running the deployment script, ensure that all necessary configurations are set. This might involve editing Helm `values.yaml` files located in the `helm-charts` directory to match your environment-specific settings.
+
+### 4. Run the Deployment Script
+
+Execute the main deployment script to initiate the deployment process.
+
+```bash
+./deploy-energy-enviroment.sh
+```
+
+> **Note**: Ensure that you have execute permissions for the script. If not, you can add execute permissions using:
+
+> ```bash
+> chmod +x deploy-energy-enviroment.sh
+> ```
+
+## Detailed Deployment Steps
+
+The `deploy-energy-enviroment.sh` script automates the following steps:
+
+1. **Deploy E2Termination Component**:
+
+   ```bash
+   python3 deploy-e2term.py 
+   ```
+
+2. **Create Policy Types**:
+
+   ```bash
+   bash policy_enode_ue/create_policy_type.bash
+   ```
+
+3. **Deploy E2 Nodes**:
+
+   Deploys four E2 nodes (`e2node1` to `e2node4`) using the `e2sim-helm` chart with specific configurations for each node.
+
+   ```bash
+   helm upgrade --install e2node1 ../helm-charts/e2sim-helm \
+       --set image.args.e2term=10.43.0.225 \
+       --set image.args.mcc=724 \
+       --set image.args.mnc=011 \
+       --set image.args.nodebid=1 \
+       --set image.args.port=30001 \
+       -n ricplt --wait
+
+   helm upgrade --install e2node2 ../helm-charts/e2sim-helm \
+       --set image.args.e2term=10.43.0.225 \
+       --set image.args.mcc=724 \
+       --set image.args.mnc=011 \
+       --set image.args.nodebid=2 \
+       --set image.args.port=30001 \
+       -n ricplt --wait
+
+   helm upgrade --install e2node3 ../helm-charts/e2sim-helm \
+       --set image.args.e2term=10.43.0.225 \
+       --set image.args.mcc=724 \
+       --set image.args.mnc=011 \
+       --set image.args.nodebid=3 \
+       --set image.args.port=30001 \
+       -n ricplt --wait
+
+   helm upgrade --install e2node4 ../helm-charts/e2sim-helm \
+       --set image.args.e2term=10.43.0.225 \
+       --set image.args.mcc=724 \
+       --set image.args.mnc=011 \
+       --set image.args.nodebid=4 \
+       --set image.args.port=30001 \
+       -n ricplt --wait
+   ```
+
+4. **Deploy XApp Monitoring Instances**:
+
+   Deploys four XApp Monitoring instances (`xappmonitoring1` to `xappmonitoring4`) using the `bouncer-xapp` chart with tailored settings.
+
+   ```bash
+   helm upgrade --install xappmonitoring1 ../helm-charts/bouncer-xapp \
+       --set containers[0].image.name="zanattabruno/bouncer-rc" \
+       --set containers[0].image.registry="registry.hub.docker.com" \
+       --set containers[0].image.tag="TNSM-24" \
+       --set containers[0].name="bouncer-xapp" \
+       --set containers[0].command[0]="b_xapp_main" \
+       --set containers[0].args[0]="--mcc" \
+       --set containers[0].args[1]="724" \
+       --set containers[0].args[2]="--mnc" \
+       --set containers[0].args[3]="011" \
+       --set containers[0].args[4]="--nodebid" \
+       --set containers[0].args[5]="1" \
+       -n ricxapp --wait
+
+   helm upgrade --install xappmonitoring2 ../helm-charts/bouncer-xapp \
+       --set containers[0].image.name="zanattabruno/bouncer-rc" \
+       --set containers[0].image.registry="registry.hub.docker.com" \
+       --set containers[0].image.tag="TNSM-24" \
+       --set containers[0].name="bouncer-xapp" \
+       --set containers[0].command[0]="b_xapp_main" \
+       --set containers[0].args[0]="--mcc" \
+       --set containers[0].args[1]="724" \
+       --set containers[0].args[2]="--mnc" \
+       --set containers[0].args[3]="011" \
+       --set containers[0].args[4]="--nodebid" \
+       --set containers[0].args[5]="2" \
+       -n ricxapp --wait
+
+   helm upgrade --install xappmonitoring3 ../helm-charts/bouncer-xapp \
+       --set containers[0].image.name="zanattabruno/bouncer-rc" \
+       --set containers[0].image.registry="registry.hub.docker.com" \
+       --set containers[0].image.tag="TNSM-24" \
+       --set containers[0].name="bouncer-xapp" \
+       --set containers[0].command[0]="b_xapp_main" \
+       --set containers[0].args[0]="--mcc" \
+       --set containers[0].args[1]="724" \
+       --set containers[0].args[2]="--mnc" \
+       --set containers[0].args[3]="011" \
+       --set containers[0].args[4]="--nodebid" \
+       --set containers[0].args[5]="3" \
+       -n ricxapp --wait
+
+   helm upgrade --install xappmonitoring4 ../helm-charts/bouncer-xapp \
+       --set containers[0].image.name="zanattabruno/bouncer-rc" \
+       --set containers[0].image.registry="registry.hub.docker.com" \
+       --set containers[0].image.tag="TNSM-24" \
+       --set containers[0].name="bouncer-xapp" \
+       --set containers[0].command[0]="b_xapp_main" \
+       --set containers[0].args[0]="--mcc" \
+       --set containers[0].args[1]="724" \
+       --set containers[0].args[2]="--mnc" \
+       --set containers[0].args[3]="011" \
+       --set containers[0].args[4]="--nodebid" \
+       --set containers[0].args[5]="4" \
+       -n ricxapp --wait
+   ```
+
+5. **Deploy Handover XApp**:
+
+   ```bash
+   helm upgrade --install handover-xapp ../helm-charts/handover-xapp -n ricxapp --wait
+   ```
+
+6. **Apply Environment Manager Configuration**:
+
+   ```bash
+   kubectl apply -f envmanager -n ricplt
+   ```
+
+7. **Final Wait**:
+
+   The script waits for 45 seconds to ensure all components are up and running.
+
+   ```bash
+   sleep 45
+   ```
+
+8. **Optional Deployment**:
+
+   The script contains a commented-out line to deploy the `energy-saver-rapp`. Uncomment if needed.
+
+   ```bash
+   #helm upgrade --install energy-saver-rapp ../helm-charts/energy-saver-rapp -n ricrapp --wait
+   ```
+
+## Usage
+
+After successful deployment, you can interact with the Energy Saver application and its components through Kubernetes and Helm commands. Refer to individual Helm chart `values.yaml` files for customization options.
+
+### Accessing Services
+
+- **XApp Monitoring**: Access via the services created in the `ricxapp` namespace.
+- **Handover XApp**: Managed within the `ricxapp` namespace.
+- **Environment Manager**: Configured in the `ricplt` namespace.
+
+### Monitoring and Logs
+
+Use `kubectl` to monitor pods and view logs:
+
+```bash
+kubectl get pods -n ricplt
+kubectl logs <pod-name> -n ricplt
+```
+
+Replace `<pod-name>` with the name of the pod you wish to inspect.
+
+### Running Tests
+
+The repository includes various Jupyter notebooks (`.ipynb`) located in the `results` directory for analyzing deployment performance and results. To run these notebooks:
+
+1. Ensure you have [Jupyter Notebook](https://jupyter.org/install) installed.
+2. Navigate to the desired notebook directory.
+3. Start Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+4. Open and run the notebooks in your browser.
+
+## Results
+
+The `results` directory contains various outputs and analyses related to the deployment and performance of the Energy Saver application. This includes PDF reports, PNG images, and Jupyter notebooks (`.ipynb`) for detailed analyses.
+
+### Example Results
+
+- **Energy Analysis**:
+  - `results/energy-results/out/energy-analysis.pdf`
+  - `results/energy-results/out/energy-analysis.png`
+- **Network Time Detailed**:
+  - `results/net-time-detailed/out/detailed-times-side.pdf`
+  - `results/net-time-detailed/out/detailed-times-stacked.png`
+- **Radar Results**:
+  - `results/radar-results/out/energy-radar.pdf`
+- **RApp Energy Saver**:
+  - `results/rApp-energy-saver/out/rApp-energy-saver.pdf`
+- **XApp Handover & Monitoring**:
+  - `results/xApp-handover/out/xApp-handover.pdf`
+  - `results/xApp-Monitoring/out/xApp-Monitoring.pdf`
+
+These results validate the effectiveness of the adaptive network management framework in optimizing energy efficiency within O-RAN architectures, as detailed in our research.
+
+## Scripts Overview
+
+The `scripts` directory contains various scripts to manage the deployment and operations of the Energy Saver application.
+
+### Key Scripts
+
+- **deploy-energy-enviroment.sh**: Main deployment script orchestrating the setup of all components.
+- **deploy-e2term.py**: Python script for deploying the E2Termination component.
+- **deploy-initial.py**: Initial deployment configurations.
+- **deploy-use-case.sh**: Deploys specific use-case scenarios.
+- **handover.sh**: Manages handover operations.
+- **policy_enode_ue/create_policy_type.bash**: Script to create policy types.
+- **restart_RIC.sh**: Restarts the RIC components.
+- **trigger.sh**: Triggers specific deployment or test actions.
+
+### Environment Management
+
+Located in the `scripts/envmanager` directory, these scripts handle environment-specific configurations:
+
+- **configmap.yaml**: ConfigMaps for environment variables.
+- **deployment.yaml**: Deployment configurations.
+- **service.yaml**: Service definitions.
+
+### Additional Resources
+
+- **archive/experiment.yaml**: Archived experiment configurations.
+- **deployment-map.json**: Maps deployments for reference.
+- **handover_payload.json**: Payload configurations for handover operations.
+- **file.pcap**: Packet capture files for network analysis.
+- **scrape-output*.txt**: Output files from scraping operations.
+- **scrape-time.sh**: Script to scrape timing data.
+
+## Docker Configuration
+
+The `Dockerfiles` directory contains Docker configurations for building container images required by the application.
+
+### CPLEX Docker Configuration
+
+Located in `Dockerfiles/CPLEX`, this includes:
+
+- **Dockerfile**: Defines the Docker image for CPLEX.
+- **build_container_image.sh**: Script to build the Docker image.
+- **cplex_studio2210.linux_x86_64.bin**: CPLEX installer binary.
+- **installer.properties**: Configuration properties for the CPLEX installer.
+
+To build the CPLEX Docker image:
+
+```bash
+cd Dockerfiles/CPLEX
+./build_container_image.sh
+```
+
+Ensure you have the necessary permissions and dependencies installed.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
+2. **Create a Branch**:
+
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+
+3. **Make Changes**: Implement your feature or bug fix.
+4. **Commit Changes**:
+
+   ```bash
+   git commit -m "Add your message here"
+   ```
+
+5. **Push to Branch**:
+
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+
+6. **Open a Pull Request**: Navigate to the original repository and open a pull request.
+
+Please ensure your contributions adhere to the repository's coding standards and include appropriate documentation and tests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or need further assistance, feel free to reach out:
+
+- **Email**: gkbsa2504@gmail.com
+- **GitHub**: [zanattabruno](https://github.com/zanattabruno)
+
