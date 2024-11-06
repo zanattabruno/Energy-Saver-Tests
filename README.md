@@ -511,12 +511,3 @@ Please ensure your contributions adhere to the repository's coding standards and
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or need further assistance, feel free to reach out:
-
-- **Email**: gkbsa2504@gmail.com
-- **GitHub**: [zanattabruno](https://github.com/zanattabruno)
-
-
