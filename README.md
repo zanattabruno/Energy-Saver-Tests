@@ -164,6 +164,14 @@ Before you begin, ensure you have met the following requirements:
   - [Helm](https://helm.sh/docs/intro/install/) installed
   - [Python 3](https://www.python.org/downloads/) installed
   - [kubectl](https://kubernetes.io/docs/tasks/tools/) installed and configured
+  - **O-RAN Components**:
+    - [Near-RT RIC](https://www.o-ran-sc.org/)
+    - [Non-RT RIC](https://www.o-ran-sc.org/)
+  - **Additional Services**:
+    - [VES Collector](https://github.com/zanattabruno/ves-collector)
+    - [Apache Kafka](https://kafka.apache.org/)
+    - [InfluxDB Collector](https://github.com/zanattabruno/influxdb-connector)
+    - [InfluxDB](https://www.influxdata.com/)
 - **Permissions**:
   - Sufficient permissions to deploy resources to the Kubernetes cluster
   - Access to Docker Hub or relevant container registries
