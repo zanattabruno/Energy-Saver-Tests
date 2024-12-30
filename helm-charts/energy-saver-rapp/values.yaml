@@ -4,9 +4,9 @@
 
 image:
   repository: zanattabruno/rapp_energy-saver
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "genetic-model-2.0"
 
 
 resources: {}
@@ -59,7 +59,7 @@ app:
     user_variation:
       enable: True  # Enable or disable user variation.
       percentage: 0.2  # The percentage of variation.
-      min_time_since_last_run_seconds: 90  # The minimum time since the last run in seconds.
+      min_time_since_last_run_seconds: 180  # The minimum time since the last run in seconds.
 
   nonrtric:
     base_url_rApp_catalogue: 'http://rappcatalogueservice.nonrtric.svc.cluster.local:9085/services'  # The base URL for the rApp catalogue service.

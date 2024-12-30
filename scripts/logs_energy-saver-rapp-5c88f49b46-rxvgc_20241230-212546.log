@@ -1,0 +1,1702 @@
+2024-12-30 21:21:33,132 - __main__ - INFO - Service successfully registered on rApp catalogue.
+2024-12-30 21:21:33,136 - __main__ - INFO - Running the UE consumer application.
+2024-12-30 21:21:33,452 - __main__ - INFO - Number of UEs: 1
+2024-12-30 21:21:33,452 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:33,594 - __main__ - INFO - Number of UEs: 2
+2024-12-30 21:21:33,594 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:33,828 - __main__ - INFO - Number of UEs: 3
+2024-12-30 21:21:33,829 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:34,068 - __main__ - INFO - Number of UEs: 4
+2024-12-30 21:21:34,068 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:34,302 - __main__ - INFO - Number of UEs: 5
+2024-12-30 21:21:34,303 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:34,537 - __main__ - INFO - Number of UEs: 6
+2024-12-30 21:21:34,538 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:34,771 - __main__ - INFO - Number of UEs: 7
+2024-12-30 21:21:34,772 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:35,003 - __main__ - INFO - Number of UEs: 8
+2024-12-30 21:21:35,003 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:35,140 - __main__ - INFO - Number of UEs: 9
+2024-12-30 21:21:35,140 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:35,385 - __main__ - INFO - Number of UEs: 10
+2024-12-30 21:21:35,385 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:35,636 - __main__ - INFO - Number of UEs: 11
+2024-12-30 21:21:35,636 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:36,150 - __main__ - INFO - Number of UEs: 12
+2024-12-30 21:21:36,150 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:36,314 - __main__ - INFO - Number of UEs: 13
+2024-12-30 21:21:36,315 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:36,457 - __main__ - INFO - Number of UEs: 14
+2024-12-30 21:21:36,458 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:36,620 - __main__ - INFO - Number of UEs: 15
+2024-12-30 21:21:36,621 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:36,816 - __main__ - INFO - Number of UEs: 16
+2024-12-30 21:21:36,816 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:36,981 - __main__ - INFO - Number of UEs: 17
+2024-12-30 21:21:36,982 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:36,988 - __main__ - INFO - Number of UEs: 18
+2024-12-30 21:21:36,989 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,161 - __main__ - INFO - Number of UEs: 19
+2024-12-30 21:21:37,161 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,267 - __main__ - INFO - Number of UEs: 20
+2024-12-30 21:21:37,268 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,300 - __main__ - INFO - Number of UEs: 21
+2024-12-30 21:21:37,301 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,422 - __main__ - INFO - Number of UEs: 22
+2024-12-30 21:21:37,422 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,551 - __main__ - INFO - Number of UEs: 23
+2024-12-30 21:21:37,552 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,695 - __main__ - INFO - Number of UEs: 24
+2024-12-30 21:21:37,695 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,716 - __main__ - INFO - Number of UEs: 25
+2024-12-30 21:21:37,717 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,885 - __main__ - INFO - Number of UEs: 26
+2024-12-30 21:21:37,886 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:37,971 - __main__ - INFO - Number of UEs: 27
+2024-12-30 21:21:37,972 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,134 - __main__ - INFO - Number of UEs: 28
+2024-12-30 21:21:38,135 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,211 - __main__ - INFO - Number of UEs: 29
+2024-12-30 21:21:38,211 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,380 - __main__ - INFO - Number of UEs: 30
+2024-12-30 21:21:38,381 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,463 - __main__ - INFO - Number of UEs: 31
+2024-12-30 21:21:38,464 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,621 - __main__ - INFO - Number of UEs: 32
+2024-12-30 21:21:38,621 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,709 - __main__ - INFO - Number of UEs: 33
+2024-12-30 21:21:38,710 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,859 - __main__ - INFO - Number of UEs: 34
+2024-12-30 21:21:38,860 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:38,864 - __main__ - INFO - Number of UEs: 35
+2024-12-30 21:21:38,865 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,020 - __main__ - INFO - Number of UEs: 36
+2024-12-30 21:21:39,021 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,136 - __main__ - INFO - Number of UEs: 36
+2024-12-30 21:21:39,137 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,267 - __main__ - INFO - Number of UEs: 37
+2024-12-30 21:21:39,267 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,416 - __main__ - INFO - Number of UEs: 37
+2024-12-30 21:21:39,416 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,526 - __main__ - INFO - Number of UEs: 38
+2024-12-30 21:21:39,526 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,659 - __main__ - INFO - Number of UEs: 38
+2024-12-30 21:21:39,660 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,769 - __main__ - INFO - Number of UEs: 39
+2024-12-30 21:21:39,770 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:39,901 - __main__ - INFO - Number of UEs: 39
+2024-12-30 21:21:39,902 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:40,030 - __main__ - INFO - Number of UEs: 40
+2024-12-30 21:21:40,030 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:40,168 - __main__ - INFO - Number of UEs: 40
+2024-12-30 21:21:40,169 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:40,190 - __main__ - INFO - Number of UEs: 41
+2024-12-30 21:21:40,191 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:40,441 - __main__ - INFO - Number of UEs: 41
+2024-12-30 21:21:40,441 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:40,445 - __main__ - INFO - Number of UEs: 42
+2024-12-30 21:21:40,445 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:40,945 - __main__ - INFO - Number of UEs: 42
+2024-12-30 21:21:40,945 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:40,959 - __main__ - INFO - Number of UEs: 43
+2024-12-30 21:21:40,959 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,113 - __main__ - INFO - Number of UEs: 43
+2024-12-30 21:21:41,114 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,193 - __main__ - INFO - Number of UEs: 44
+2024-12-30 21:21:41,193 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,334 - __main__ - INFO - Number of UEs: 44
+2024-12-30 21:21:41,334 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,431 - __main__ - INFO - Number of UEs: 45
+2024-12-30 21:21:41,431 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,489 - __main__ - INFO - Number of UEs: 45
+2024-12-30 21:21:41,489 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,679 - __main__ - INFO - Number of UEs: 46
+2024-12-30 21:21:41,679 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,732 - __main__ - INFO - Number of UEs: 46
+2024-12-30 21:21:41,732 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,915 - __main__ - INFO - Number of UEs: 47
+2024-12-30 21:21:41,916 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,979 - __main__ - INFO - Number of UEs: 47
+2024-12-30 21:21:41,979 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:41,984 - __main__ - INFO - Number of UEs: 47
+2024-12-30 21:21:41,985 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,154 - __main__ - INFO - Number of UEs: 47
+2024-12-30 21:21:42,155 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,157 - __main__ - INFO - Number of UEs: 47
+2024-12-30 21:21:42,157 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,159 - __main__ - INFO - Number of UEs: 48
+2024-12-30 21:21:42,159 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,345 - __main__ - INFO - Number of UEs: 49
+2024-12-30 21:21:42,345 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,359 - __main__ - INFO - Number of UEs: 49
+2024-12-30 21:21:42,359 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,543 - __main__ - INFO - Number of UEs: 50
+2024-12-30 21:21:42,544 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,649 - __main__ - INFO - Number of UEs: 50
+2024-12-30 21:21:42,650 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,651 - __main__ - INFO - Number of UEs: 50
+2024-12-30 21:21:42,652 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,801 - __main__ - INFO - Number of UEs: 51
+2024-12-30 21:21:42,801 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,842 - __main__ - INFO - Number of UEs: 51
+2024-12-30 21:21:42,843 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,859 - __main__ - INFO - Number of UEs: 51
+2024-12-30 21:21:42,860 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:42,974 - __main__ - INFO - Number of UEs: 52
+2024-12-30 21:21:42,974 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,018 - __main__ - INFO - Number of UEs: 52
+2024-12-30 21:21:43,018 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,033 - __main__ - INFO - Number of UEs: 52
+2024-12-30 21:21:43,033 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,149 - __main__ - INFO - Number of UEs: 53
+2024-12-30 21:21:43,150 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,198 - __main__ - INFO - Number of UEs: 53
+2024-12-30 21:21:43,198 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,322 - __main__ - INFO - Number of UEs: 54
+2024-12-30 21:21:43,323 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,447 - __main__ - INFO - Number of UEs: 54
+2024-12-30 21:21:43,448 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,475 - __main__ - INFO - Number of UEs: 55
+2024-12-30 21:21:43,475 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,692 - __main__ - INFO - Number of UEs: 55
+2024-12-30 21:21:43,693 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,710 - __main__ - INFO - Number of UEs: 56
+2024-12-30 21:21:43,711 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:43,947 - __main__ - INFO - Number of UEs: 57
+2024-12-30 21:21:43,948 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:44,093 - __main__ - INFO - Number of UEs: 58
+2024-12-30 21:21:44,094 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:44,336 - __main__ - INFO - Number of UEs: 59
+2024-12-30 21:21:44,336 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:44,571 - __main__ - INFO - Number of UEs: 60
+2024-12-30 21:21:44,571 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:44,804 - __main__ - INFO - Number of UEs: 61
+2024-12-30 21:21:44,804 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:45,078 - __main__ - INFO - Number of UEs: 62
+2024-12-30 21:21:45,079 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:45,315 - __main__ - INFO - Number of UEs: 63
+2024-12-30 21:21:45,316 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:45,557 - __main__ - INFO - Number of UEs: 64
+2024-12-30 21:21:45,557 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:45,796 - __main__ - INFO - Number of UEs: 65
+2024-12-30 21:21:45,796 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:46,038 - __main__ - INFO - Number of UEs: 66
+2024-12-30 21:21:46,038 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:46,282 - __main__ - INFO - Number of UEs: 67
+2024-12-30 21:21:46,283 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:46,526 - __main__ - INFO - Number of UEs: 68
+2024-12-30 21:21:46,527 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:46,762 - __main__ - INFO - Number of UEs: 69
+2024-12-30 21:21:46,763 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:46,903 - __main__ - INFO - Number of UEs: 70
+2024-12-30 21:21:46,904 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:47,137 - __main__ - INFO - Number of UEs: 71
+2024-12-30 21:21:47,137 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:47,268 - __main__ - INFO - Number of UEs: 72
+2024-12-30 21:21:47,269 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:47,501 - __main__ - INFO - Number of UEs: 73
+2024-12-30 21:21:47,502 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:47,735 - __main__ - INFO - Number of UEs: 74
+2024-12-30 21:21:47,736 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:47,970 - __main__ - INFO - Number of UEs: 75
+2024-12-30 21:21:47,971 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:48,206 - __main__ - INFO - Number of UEs: 76
+2024-12-30 21:21:48,207 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:48,445 - __main__ - INFO - Number of UEs: 77
+2024-12-30 21:21:48,446 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:48,681 - __main__ - INFO - Number of UEs: 78
+2024-12-30 21:21:48,682 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:48,914 - __main__ - INFO - Number of UEs: 79
+2024-12-30 21:21:48,914 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:49,149 - __main__ - INFO - Number of UEs: 80
+2024-12-30 21:21:49,150 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:49,283 - __main__ - INFO - Number of UEs: 81
+2024-12-30 21:21:49,284 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:49,427 - __main__ - INFO - Number of UEs: 82
+2024-12-30 21:21:49,427 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:49,668 - __main__ - INFO - Number of UEs: 83
+2024-12-30 21:21:49,668 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:49,909 - __main__ - INFO - Number of UEs: 84
+2024-12-30 21:21:49,909 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:50,148 - __main__ - INFO - Number of UEs: 85
+2024-12-30 21:21:50,149 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:50,389 - __main__ - INFO - Number of UEs: 86
+2024-12-30 21:21:50,390 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:50,627 - __main__ - INFO - Number of UEs: 87
+2024-12-30 21:21:50,627 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:50,862 - __main__ - INFO - Number of UEs: 88
+2024-12-30 21:21:50,862 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:51,094 - __main__ - INFO - Number of UEs: 89
+2024-12-30 21:21:51,094 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:51,332 - __main__ - INFO - Number of UEs: 90
+2024-12-30 21:21:51,333 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:51,572 - __main__ - INFO - Number of UEs: 91
+2024-12-30 21:21:51,572 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:51,808 - __main__ - INFO - Number of UEs: 92
+2024-12-30 21:21:51,808 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:51,943 - __main__ - INFO - Number of UEs: 93
+2024-12-30 21:21:51,943 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:52,076 - __main__ - INFO - Number of UEs: 94
+2024-12-30 21:21:52,077 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:21:52,211 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:21:52,211 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:13,294 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:13,295 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:13,534 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:13,534 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:13,671 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:13,672 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:13,809 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:13,810 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:13,905 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:13,905 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,051 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,051 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,058 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,059 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,220 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,221 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,467 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,468 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,480 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,481 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,721 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,722 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,728 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,728 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,981 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,982 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:14,984 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:14,985 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,240 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,240 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,243 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,243 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,404 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,405 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,408 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,409 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,655 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,655 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,666 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,666 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,823 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,824 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:15,833 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:15,834 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,078 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,079 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,094 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,095 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,234 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,235 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,347 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,347 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,481 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,482 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,613 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,614 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,640 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,641 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,803 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,804 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,815 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,816 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:16,978 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:16,979 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,082 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,082 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,220 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,221 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,231 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,231 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,485 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,486 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,492 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,493 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,720 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,721 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,736 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,737 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,898 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,898 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:17,916 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:17,916 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,075 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,075 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,238 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,238 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,328 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,329 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,480 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,480 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,574 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,575 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,725 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,726 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,813 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,814 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:18,862 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:18,863 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,056 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,056 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,105 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,106 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,300 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,301 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,343 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,344 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,537 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,537 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,587 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,588 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,772 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,773 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:19,827 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:19,827 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,015 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,016 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,060 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,060 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,193 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,194 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,251 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,252 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,388 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,389 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,429 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,430 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,564 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,565 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,636 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,637 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,702 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,703 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,883 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,884 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:20,933 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:20,933 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,018 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,019 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,173 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,174 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,187 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,188 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,453 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,454 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,715 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,715 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,726 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,727 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,985 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,986 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:21,990 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:21,990 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,145 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:22,145 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,153 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:22,153 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,310 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:22,311 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,433 - __main__ - INFO - Number of UEs: 95
+2024-12-30 21:22:22,434 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,468 - __main__ - INFO - Number of UEs: 96
+2024-12-30 21:22:22,469 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,559 - __main__ - INFO - Number of UEs: 96
+2024-12-30 21:22:22,560 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,590 - __main__ - INFO - Number of UEs: 96
+2024-12-30 21:22:22,591 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,618 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:22,619 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,710 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:22,710 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,874 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:22,874 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:22,980 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:22,981 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,010 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,011 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,135 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,136 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,158 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,158 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,279 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,280 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,406 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,406 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,539 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,540 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,562 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,563 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,802 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,804 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,952 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,953 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:23,962 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:23,963 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,105 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,106 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,215 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,216 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,362 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,363 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,486 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,487 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,517 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,517 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,644 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,645 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,662 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,663 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,797 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,798 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,817 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,818 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:24,962 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:24,962 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,068 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,070 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,104 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,105 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,222 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,223 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,350 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,350 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,475 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,476 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,607 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,607 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,735 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,735 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:25,923 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:25,924 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,034 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,035 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,171 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,172 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,193 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,194 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,336 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,337 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,361 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,362 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,492 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,492 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,606 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,607 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,773 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,773 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:26,887 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:26,888 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,026 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,027 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,126 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,126 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,272 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,273 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,358 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,359 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,513 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,514 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,595 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,596 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,746 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,747 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,828 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,829 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,967 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,967 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:27,978 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:27,979 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:28,223 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:28,224 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:28,229 - __main__ - INFO - Number of UEs: 97
+2024-12-30 21:22:28,230 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:28,381 - __main__ - INFO - Number of UEs: 98
+2024-12-30 21:22:28,382 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:28,385 - __main__ - INFO - Number of UEs: 98
+2024-12-30 21:22:28,386 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:28,655 - __main__ - INFO - Number of UEs: 99
+2024-12-30 21:22:28,655 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:28,811 - __main__ - INFO - Number of UEs: 99
+2024-12-30 21:22:28,812 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:28,828 - __main__ - INFO - Number of UEs: 100
+2024-12-30 21:22:28,829 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,075 - __main__ - INFO - Number of UEs: 100
+2024-12-30 21:22:29,076 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,081 - __main__ - INFO - Number of UEs: 101
+2024-12-30 21:22:29,082 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,236 - __main__ - INFO - Number of UEs: 101
+2024-12-30 21:22:29,236 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,241 - __main__ - INFO - Number of UEs: 102
+2024-12-30 21:22:29,242 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,395 - __main__ - INFO - Number of UEs: 102
+2024-12-30 21:22:29,396 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,401 - __main__ - INFO - Number of UEs: 103
+2024-12-30 21:22:29,402 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,550 - __main__ - INFO - Number of UEs: 103
+2024-12-30 21:22:29,550 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,555 - __main__ - INFO - Number of UEs: 104
+2024-12-30 21:22:29,555 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,707 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:29,708 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:29,808 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:29,809 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:30,040 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:30,041 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:30,272 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:30,273 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:30,510 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:30,511 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:30,753 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:30,754 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:30,993 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:30,994 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:31,134 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:31,135 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:31,367 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:31,368 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:31,498 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:31,499 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:31,731 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:31,731 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:31,966 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:31,966 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:32,208 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:32,209 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:32,449 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:32,449 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:32,701 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:32,708 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:32,935 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:32,935 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:33,169 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:33,170 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:33,414 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:33,414 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:33,666 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:33,666 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:33,872 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:33,872 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:34,080 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:34,080 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:34,319 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:34,320 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:34,556 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:34,557 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:38,496 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:38,497 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:38,631 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:38,632 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:38,765 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:38,766 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:39,031 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:39,032 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:39,169 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:39,170 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:39,303 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:39,303 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:39,535 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:39,536 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:39,769 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:39,770 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:40,001 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:40,002 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:40,143 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:40,145 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:40,286 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:40,287 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:40,430 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:40,433 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:40,673 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:40,674 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:40,913 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:40,914 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:41,154 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:41,155 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:41,390 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:41,390 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:41,629 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:41,630 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:41,868 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:41,869 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:42,107 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:42,108 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:42,343 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:42,344 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:42,581 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:42,582 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:42,724 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:42,725 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:42,865 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:42,865 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:43,103 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:43,104 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:43,342 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:43,343 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:43,581 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:43,582 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:43,826 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:43,826 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:44,066 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:44,067 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:44,304 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:44,305 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:44,552 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:44,553 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:44,793 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:44,794 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:45,033 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:45,034 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:45,271 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:45,271 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:45,509 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:45,510 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:45,748 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:45,749 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:45,986 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:45,988 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:46,222 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:46,224 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:46,461 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:46,462 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:46,701 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:46,702 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:46,947 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:46,948 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:47,191 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:47,193 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:47,429 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:47,430 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:47,670 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:47,671 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:47,908 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:47,909 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:48,144 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:48,144 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:48,391 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:48,391 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:48,629 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:48,630 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:48,870 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:48,871 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:49,110 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:49,111 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:49,355 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:49,356 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:49,594 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:49,595 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:49,833 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:49,833 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:50,077 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:50,078 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:50,314 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:50,314 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:50,554 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:50,555 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:50,795 - __main__ - INFO - Number of UEs: 105
+2024-12-30 21:22:50,795 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:51,028 - __main__ - INFO - Number of UEs: 106
+2024-12-30 21:22:51,029 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:51,264 - __main__ - INFO - Number of UEs: 106
+2024-12-30 21:22:51,265 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:51,504 - __main__ - INFO - Number of UEs: 106
+2024-12-30 21:22:51,505 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:51,741 - __main__ - INFO - Number of UEs: 107
+2024-12-30 21:22:51,741 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:51,978 - __main__ - INFO - Number of UEs: 108
+2024-12-30 21:22:51,979 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:52,216 - __main__ - INFO - Number of UEs: 108
+2024-12-30 21:22:52,217 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:52,456 - __main__ - INFO - Number of UEs: 108
+2024-12-30 21:22:52,457 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:52,589 - __main__ - INFO - Number of UEs: 108
+2024-12-30 21:22:52,590 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:52,725 - __main__ - INFO - Number of UEs: 108
+2024-12-30 21:22:52,727 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:52,871 - __main__ - INFO - Number of UEs: 108
+2024-12-30 21:22:52,872 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:52,962 - __main__ - INFO - Number of UEs: 109
+2024-12-30 21:22:52,963 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,106 - __main__ - INFO - Number of UEs: 109
+2024-12-30 21:22:53,107 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,203 - __main__ - INFO - Number of UEs: 109
+2024-12-30 21:22:53,203 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,341 - __main__ - INFO - Number of UEs: 109
+2024-12-30 21:22:53,342 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,440 - __main__ - INFO - Number of UEs: 110
+2024-12-30 21:22:53,441 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,581 - __main__ - INFO - Number of UEs: 110
+2024-12-30 21:22:53,582 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,602 - __main__ - INFO - Number of UEs: 111
+2024-12-30 21:22:53,603 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,781 - __main__ - INFO - Number of UEs: 111
+2024-12-30 21:22:53,782 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:53,890 - __main__ - INFO - Number of UEs: 111
+2024-12-30 21:22:53,891 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,034 - __main__ - INFO - Number of UEs: 111
+2024-12-30 21:22:54,036 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,154 - __main__ - INFO - Number of UEs: 111
+2024-12-30 21:22:54,155 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,291 - __main__ - INFO - Number of UEs: 111
+2024-12-30 21:22:54,292 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,412 - __main__ - INFO - Number of UEs: 112
+2024-12-30 21:22:54,413 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,546 - __main__ - INFO - Number of UEs: 112
+2024-12-30 21:22:54,547 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,571 - __main__ - INFO - Number of UEs: 113
+2024-12-30 21:22:54,572 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,708 - __main__ - INFO - Number of UEs: 113
+2024-12-30 21:22:54,709 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:54,943 - __main__ - INFO - Number of UEs: 113
+2024-12-30 21:22:54,944 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:55,183 - __main__ - INFO - Number of UEs: 114
+2024-12-30 21:22:55,184 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:22:55,424 - __main__ - INFO - Number of UEs: 114
+2024-12-30 21:22:55,425 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:25,663 - __main__ - INFO - Number of UEs: 114
+2024-12-30 21:23:25,664 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:25,808 - __main__ - INFO - Number of UEs: 114
+2024-12-30 21:23:25,809 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:26,044 - __main__ - INFO - Number of UEs: 114
+2024-12-30 21:23:26,044 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:26,280 - __main__ - INFO - Number of UEs: 114
+2024-12-30 21:23:26,281 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:26,420 - __main__ - INFO - Number of UEs: 115
+2024-12-30 21:23:26,420 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:26,659 - __main__ - INFO - Number of UEs: 115
+2024-12-30 21:23:26,660 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:26,793 - __main__ - INFO - Number of UEs: 115
+2024-12-30 21:23:26,793 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:27,031 - __main__ - INFO - Number of UEs: 115
+2024-12-30 21:23:27,031 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:27,264 - __main__ - INFO - Number of UEs: 115
+2024-12-30 21:23:27,265 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:27,500 - __main__ - INFO - Number of UEs: 115
+2024-12-30 21:23:27,501 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:27,737 - __main__ - INFO - Number of UEs: 116
+2024-12-30 21:23:27,738 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:27,976 - __main__ - INFO - Number of UEs: 117
+2024-12-30 21:23:27,977 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:28,110 - __main__ - INFO - Number of UEs: 118
+2024-12-30 21:23:28,110 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:28,242 - __main__ - INFO - Number of UEs: 119
+2024-12-30 21:23:28,243 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:28,376 - __main__ - INFO - Number of UEs: 119
+2024-12-30 21:23:28,376 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:28,608 - __main__ - INFO - Number of UEs: 120
+2024-12-30 21:23:28,609 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:28,747 - __main__ - INFO - Number of UEs: 120
+2024-12-30 21:23:28,748 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:28,982 - __main__ - INFO - Number of UEs: 120
+2024-12-30 21:23:28,982 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:29,218 - __main__ - INFO - Number of UEs: 121
+2024-12-30 21:23:29,219 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:29,457 - __main__ - INFO - Number of UEs: 121
+2024-12-30 21:23:29,458 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:29,697 - __main__ - INFO - Number of UEs: 121
+2024-12-30 21:23:29,698 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:29,936 - __main__ - INFO - Number of UEs: 122
+2024-12-30 21:23:29,937 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:30,171 - __main__ - INFO - Number of UEs: 123
+2024-12-30 21:23:30,172 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:30,417 - __main__ - INFO - Number of UEs: 123
+2024-12-30 21:23:30,417 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:30,652 - __main__ - INFO - Number of UEs: 123
+2024-12-30 21:23:30,653 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:30,889 - __main__ - INFO - Number of UEs: 124
+2024-12-30 21:23:30,890 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:31,131 - __main__ - INFO - Number of UEs: 124
+2024-12-30 21:23:31,132 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:31,366 - __main__ - INFO - Number of UEs: 125
+2024-12-30 21:23:31,366 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:31,499 - __main__ - INFO - Number of UEs: 125
+2024-12-30 21:23:31,500 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:31,734 - __main__ - INFO - Number of UEs: 126
+2024-12-30 21:23:31,734 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:31,871 - __main__ - INFO - Number of UEs: 126
+2024-12-30 21:23:31,872 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:32,112 - __main__ - INFO - Number of UEs: 127
+2024-12-30 21:23:32,112 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:32,359 - __main__ - INFO - Number of UEs: 127
+2024-12-30 21:23:32,359 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:32,596 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:32,597 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:32,738 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:32,739 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:32,890 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:32,890 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:33,027 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:33,028 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:33,269 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:33,270 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:33,410 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:33,411 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:33,650 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:33,650 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:33,894 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:33,895 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:34,025 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:34,026 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:34,257 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:34,257 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:34,393 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:34,394 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:34,631 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:34,632 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:34,866 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:34,867 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:35,099 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:35,099 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:35,334 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:35,334 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:35,569 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:35,569 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:35,805 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:35,805 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:23:36,039 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:23:36,040 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:09,545 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:09,546 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:09,788 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:09,789 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:10,025 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:10,026 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:10,260 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:10,261 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:10,495 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:10,496 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:10,736 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:10,737 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:10,976 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:10,977 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:11,217 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:11,218 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:11,460 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:11,461 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:11,703 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:11,704 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:11,947 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:11,948 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:12,192 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:12,194 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:12,433 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:12,434 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:12,670 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:12,671 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:12,910 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:12,910 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:13,149 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:13,150 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:13,382 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:13,382 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:13,619 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:13,620 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:13,858 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:13,859 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:14,096 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:14,097 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:14,347 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:14,349 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:14,488 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:14,489 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:14,727 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:14,728 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:14,964 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:14,965 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:15,200 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:15,201 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:15,437 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:15,438 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:15,570 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:15,571 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:15,703 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:15,703 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:15,940 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:15,940 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:16,183 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:16,184 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:16,418 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:16,419 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:16,655 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:16,656 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:16,897 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:16,898 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:17,138 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:17,138 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:17,388 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:17,390 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:17,632 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:17,633 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:17,770 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:17,771 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:18,009 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:18,009 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:18,149 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:18,149 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:18,391 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:18,392 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:18,626 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:18,626 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:18,869 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:18,869 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:19,104 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:19,105 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:19,352 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:19,353 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:19,490 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:19,491 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:19,729 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:19,729 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:19,965 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:19,966 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:20,197 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:20,198 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:20,433 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:20,434 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:20,667 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:20,672 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:20,909 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:20,910 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:21,186 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:21,187 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:21,419 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:21,419 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:21,552 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:21,553 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:21,791 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:21,792 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:22,028 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:22,029 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:22,268 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:22,269 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:22,508 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:22,509 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:22,749 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:22,751 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:22,987 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:22,988 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:23,226 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:23,227 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:23,463 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:23,464 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:24,640 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:24,641 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:24,879 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:24,880 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:25,113 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:25,113 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:25,353 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:25,354 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:25,586 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:25,586 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:25,816 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:25,817 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:25,956 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:25,957 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:26,095 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:26,096 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:26,335 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:26,336 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:26,472 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:26,473 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:26,709 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:26,710 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:26,848 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:26,848 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:26,981 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:26,982 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:27,220 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:27,220 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:27,458 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:27,459 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:27,592 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:27,593 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:27,827 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:27,827 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:28,072 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:28,073 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:28,209 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:28,210 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:28,347 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:28,348 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:28,584 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:28,585 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:28,820 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:28,821 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:28,951 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:28,951 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:29,188 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:29,189 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:29,421 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:29,422 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:29,654 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:29,655 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:29,893 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:29,894 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:30,136 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:30,138 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:30,271 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:30,272 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:30,404 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:30,405 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:30,622 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:30,623 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:31,213 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:31,214 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:31,358 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:31,358 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:31,612 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:31,613 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:31,860 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:31,861 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:32,132 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:32,133 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:32,267 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:32,267 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:32,294 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:32,295 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:32,425 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:32,425 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:32,543 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:32,544 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:32,693 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:32,694 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:32,808 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,515 - Solution_Tools - ERROR - Failed to post data. Status code: 404, Response: {"type":"about:blank","status":404,"detail":"org.onap.ccsdk.oran.a1policymanagementservice.exceptions.EntityNotFoundException: Near-RT RIC or policy type not found"}
+2024-12-30 21:24:39,539 - Solution_Tools - INFO - Successfully updated gain for 72401100000001. Gain: 1.0
+2024-12-30 21:24:39,560 - Solution_Tools - INFO - Successfully updated gain for 72401100000002. Gain: -1
+2024-12-30 21:24:39,575 - Solution_Tools - INFO - Successfully updated gain for 72401100000003. Gain: 1.0
+2024-12-30 21:24:39,588 - Solution_Tools - INFO - Successfully updated gain for 72401100000004. Gain: -1
+2024-12-30 21:24:39,590 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,591 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,593 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,594 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,597 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,597 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,599 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,599 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,601 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,601 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,602 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,603 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,604 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,605 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,607 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,607 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,609 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,610 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,611 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,612 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,613 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,614 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,616 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,617 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,618 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,619 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,621 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,621 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,622 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,623 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,624 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,625 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,626 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,627 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,628 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,629 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,630 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,631 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,634 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,635 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,636 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,636 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,639 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,639 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,641 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,642 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,643 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,644 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,645 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,646 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,647 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,648 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,657 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,658 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,671 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,671 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,677 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,678 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,833 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,834 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,841 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,841 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:39,990 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:39,990 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,010 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,010 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,241 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,243 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,264 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,264 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,478 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,479 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,505 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,506 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,611 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,612 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,745 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,746 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,845 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,846 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:40,992 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:40,993 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,082 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,083 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,127 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,127 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,221 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,222 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,370 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,371 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,460 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,460 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,611 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,612 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,702 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,703 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,748 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,749 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,935 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,937 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:41,981 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:41,982 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,171 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,172 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,216 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,217 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,304 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,304 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,445 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,446 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,494 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,495 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,582 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,582 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,629 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,630 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,770 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,770 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:42,828 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:42,829 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,020 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,021 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,068 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,069 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,263 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,264 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,301 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,302 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,400 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,401 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,542 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,544 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,648 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,649 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,679 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,680 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,783 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,783 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,932 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,933 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:43,957 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:43,957 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,100 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,101 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,207 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,208 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,338 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,339 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,468 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,468 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,592 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,593 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,714 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,715 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,840 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,841 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,874 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,874 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:44,991 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:44,992 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:45,123 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:45,124 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:45,248 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:45,249 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:45,383 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:45,384 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:45,507 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:45,507 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:45,631 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:45,631 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:45,756 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:45,756 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:45,883 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:45,884 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,001 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,002 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,139 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,139 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,173 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,174 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,294 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,295 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,420 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,421 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,573 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,574 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,576 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,577 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,729 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,729 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,733 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,734 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,896 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,897 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:46,995 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:46,996 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,129 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,130 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,138 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,138 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,290 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,291 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,388 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,389 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,522 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,523 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,530 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,530 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,683 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,684 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,689 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,690 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,943 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,944 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:47,946 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:47,947 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,094 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,095 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,201 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,202 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,348 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,349 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,466 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,467 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,494 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,496 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,625 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,626 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,747 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,747 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:48,780 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:48,781 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,012 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,013 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,018 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,018 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,174 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,175 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,275 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,276 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,412 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,413 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,417 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,419 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,574 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,575 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,591 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,592 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,733 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,734 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,747 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,748 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,883 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,884 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:49,895 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:49,895 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,144 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,145 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,148 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,150 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,302 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,302 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,305 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,306 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,503 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,504 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,516 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,517 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,669 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,670 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,687 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,688 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,825 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,826 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,910 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,911 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:50,970 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:50,971 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,042 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,043 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,176 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,177 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,207 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,209 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,327 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,329 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,358 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,359 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,521 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,522 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,525 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,525 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,684 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,685 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,710 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,711 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,854 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,854 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:51,959 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:51,960 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,099 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,100 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,219 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,219 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,248 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,249 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,406 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,407 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,506 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,508 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,638 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,639 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,645 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,647 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,801 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,801 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:52,905 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:52,906 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,044 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,045 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,066 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,067 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,297 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,298 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,318 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,318 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,557 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,558 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,560 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,561 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,719 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,720 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,815 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,815 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:53,969 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:53,969 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,048 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,049 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,209 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,210 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,283 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,283 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,447 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,448 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,521 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,522 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,683 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,684 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,758 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,760 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,917 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,918 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:54,996 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:54,997 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,153 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,154 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,232 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,233 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,386 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,387 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,468 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,469 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,619 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,620 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,702 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,703 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,852 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,852 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:55,934 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:55,934 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,085 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,086 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,165 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,165 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,223 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,223 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,299 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,300 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,458 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,459 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,531 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,532 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,692 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,693 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,765 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,765 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,826 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,827 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,904 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,904 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:56,957 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:56,958 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,136 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,137 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,188 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,189 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,373 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,374 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,423 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,424 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,558 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,559 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,611 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,612 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,690 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,691 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,845 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,846 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:57,925 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:57,926 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,082 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,082 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,160 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,161 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,299 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,300 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,317 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,319 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,458 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,460 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,558 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,558 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,697 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,699 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,794 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,794 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,840 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,841 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:58,977 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:58,978 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,027 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,027 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,116 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,117 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,248 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,249 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,303 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,305 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,482 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,483 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,536 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,538 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,673 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,674 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,720 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,721 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,911 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,912 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:24:59,959 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:24:59,960 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:00,198 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:00,199 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:00,437 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:00,439 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:00,676 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:00,677 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:01,325 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:01,326 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:01,600 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:01,601 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:01,766 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:01,768 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:01,929 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:01,930 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,106 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,107 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,254 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,255 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,273 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,273 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,407 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,408 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,539 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,539 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,570 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,570 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,703 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,704 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,727 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,728 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,875 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,877 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:02,881 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:02,883 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,107 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,108 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,112 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,114 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,257 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,258 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,349 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,349 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,487 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,487 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,583 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,583 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,718 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,719 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,822 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,824 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,962 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,963 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:03,965 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:03,966 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:04,226 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:04,227 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:04,236 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:04,237 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:04,483 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:04,484 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:04,486 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:04,487 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:04,638 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:04,638 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:04,877 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:04,878 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:05,110 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:05,111 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:05,357 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:05,358 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:34,768 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:34,768 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:35,010 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:35,010 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:35,244 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:35,245 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:35,480 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:35,481 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:35,718 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:35,719 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:35,952 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:35,953 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:36,192 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:36,193 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:36,433 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:36,434 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:36,670 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:36,671 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:36,807 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:36,807 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:36,947 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:36,948 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:37,183 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:37,184 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:37,417 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:37,418 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:37,554 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:37,555 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:37,693 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:37,694 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:37,945 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:37,946 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:38,221 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:38,222 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:38,459 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:38,460 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:38,701 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:38,702 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:38,943 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:38,944 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:39,186 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:39,186 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:39,329 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:39,329 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:39,573 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:39,573 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:39,809 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:39,810 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:40,048 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:40,048 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:40,282 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:40,283 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:40,518 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:40,519 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:40,753 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:40,754 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:40,998 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:40,999 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:41,132 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:41,133 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:41,367 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:41,368 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:41,502 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:41,503 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:41,645 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:41,646 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:41,784 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:41,785 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:42,026 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:42,027 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:42,262 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:42,262 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:42,503 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:42,503 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:42,744 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:42,745 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:42,983 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:42,984 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:43,224 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:43,224 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:43,464 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:43,464 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:43,704 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:43,705 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:43,940 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:43,941 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:44,171 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:44,172 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:44,410 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:44,411 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:44,645 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:44,646 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:44,882 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:44,883 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:45,121 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:45,122 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:45,257 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:45,257 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:45,493 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:45,494 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:45,727 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:45,728 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:45,966 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:45,967 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:46,203 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:46,203 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:46,440 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:46,442 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:46,679 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:46,681 - __main__ - INFO - Minimum time since last run is not reached.
+2024-12-30 21:25:46,821 - __main__ - INFO - Number of UEs: 128
+2024-12-30 21:25:46,822 - __main__ - INFO - Minimum time since last run is not reached.

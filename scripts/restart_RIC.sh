@@ -12,6 +12,7 @@ kubectl rollout restart deployment deployment-ricplt-o1mediator -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-rtmgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-submgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-vespamgr -n ricplt & 
+kubectl rollout restart deployment deployment-ricplt-e2term-alpha -n ricplt &
 kubectl rollout restart deployment r4-infrastructure-prometheus-server  -n ricplt &
 kubectl rollout restart deployment r4-infrastructure-prometheus-alertmanager -n ricplt
 

@@ -5,7 +5,7 @@ metadata:
 data:
   application.yaml: |-
     ues: 
-      quantity: 128
+      quantity: 256
     antennae:
       - name: "E2node1"
         gnb_id: 1
@@ -22,7 +22,7 @@ data:
         endpoint: "http://e2node2-e2sim-helm-simulator.ricplt:8081/v1"
         location: [47.0, 87.0, 25.0]
         numerology: 4
-        frequency: 7275
+        frequency: 7275 # MHz
         power: 1 # W
         gain: 8
         bandwidth: 100 # MHz
@@ -32,7 +32,7 @@ data:
         endpoint: "http://e2node3-e2sim-helm-simulator.ricplt:8081/v1"
         location: [47.0, 127.0, 25.0]
         numerology: 4
-        frequency: 7375
+        frequency: 7375 # MHz
         power: 1 # W
         gain: 8
         bandwidth: 100 # MHz
@@ -42,7 +42,217 @@ data:
         endpoint: "http://e2node4-e2sim-helm-simulator.ricplt:8081/v1"
         location: [157.0, 47.0, 25.0]
         numerology: 4
-        frequency: 7475
+        frequency: 7475 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node5"
+        gnb_id: 5
+        endpoint: "http://e2node5-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 7575 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node6"
+        gnb_id: 6
+        endpoint: "http://e2node6-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 87.0, 25.0]
+        numerology: 4
+        frequency: 7675 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node7"
+        gnb_id: 7
+        endpoint: "http://e2node7-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 127.0, 25.0]
+        numerology: 4
+        frequency: 7775 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node8"
+        gnb_id: 8
+        endpoint: "http://e2node8-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [157.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 7875 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node9"
+        gnb_id: 9
+        endpoint: "http://e2node9-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 7975 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node10"
+        gnb_id: 10
+        endpoint: "http://e2node10-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 87.0, 25.0]
+        numerology: 4
+        frequency: 8075 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node11"
+        gnb_id: 11
+        endpoint: "http://e2node11-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 127.0, 25.0]
+        numerology: 4
+        frequency: 8175 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node12"
+        gnb_id: 12
+        endpoint: "http://e2node12-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [157.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 8275 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node13"
+        gnb_id: 13
+        endpoint: "http://e2node13-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 8375 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node14"
+        gnb_id: 14
+        endpoint: "http://e2node14-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 87.0, 25.0]
+        numerology: 4
+        frequency: 8475 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node15"
+        gnb_id: 15
+        endpoint: "http://e2node15-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 127.0, 25.0]
+        numerology: 4
+        frequency: 8575 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node16"
+        gnb_id: 16
+        endpoint: "http://e2node16-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [157.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 8675 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node17"
+        gnb_id: 17
+        endpoint: "http://e2node17-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 8775 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node18"
+        gnb_id: 18
+        endpoint: "http://e2node18-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 87.0, 25.0]
+        numerology: 4
+        frequency: 8875 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node19"
+        gnb_id: 19
+        endpoint: "http://e2node19-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 127.0, 25.0]
+        numerology: 4
+        frequency: 8975 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node20"
+        gnb_id: 20
+        endpoint: "http://e2node20-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [157.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 9075 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node21"
+        gnb_id: 21
+        endpoint: "http://e2node21-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 9175 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node22"
+        gnb_id: 22
+        endpoint: "http://e2node22-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 87.0, 25.0]
+        numerology: 4
+        frequency: 9275 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node23"
+        gnb_id: 23
+        endpoint: "http://e2node23-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 127.0, 25.0]
+        numerology: 4
+        frequency: 9375 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node24"
+        gnb_id: 24
+        endpoint: "http://e2node24-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [157.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 9475 # MHz
+        power: 1 # W
+        gain: 8
+        bandwidth: 100 # MHz
+
+      - name: "E2node25"
+        gnb_id: 25
+        endpoint: "http://e2node25-e2sim-helm-simulator.ricplt:8081/v1"
+        location: [47.0, 47.0, 25.0]
+        numerology: 4
+        frequency: 9575 # MHz
         power: 1 # W
         gain: 8
         bandwidth: 100 # MHz
