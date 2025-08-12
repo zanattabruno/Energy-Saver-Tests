@@ -1,8 +1,6 @@
 #!/bin/bash
-echo "Cleaning..."
-bash remove_opt.sh 
-
 echo "Restarting Near-RT RIC..." &&
+kubectl rollout restart deployment deployment-ricplt-e2term-r4-e2term-alpha -n ricplt &
 kubectl rollout restart statefulset statefulset-ricplt-dbaas-server -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-a1mediator -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-alarmmanager -n ricplt &
@@ -12,6 +10,7 @@ kubectl rollout restart deployment deployment-ricplt-o1mediator -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-rtmgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-submgr -n ricplt &
 kubectl rollout restart deployment deployment-ricplt-vespamgr -n ricplt & 
+kubectl rollout restart deployment deployment-ricplt-e2term-alpha -n ricplt &
 kubectl rollout restart deployment r4-infrastructure-prometheus-server  -n ricplt &
 kubectl rollout restart deployment r4-infrastructure-prometheus-alertmanager -n ricplt
 

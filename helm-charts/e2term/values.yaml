@@ -30,8 +30,6 @@ health:
     initialDelaySeconds: 120
     periodSeconds: 60
 loglevel: 4
-nodeSelector:
-  kubernetes.io/hostname: node3
 services:
   sctp:
-    nodePort: 30003
+    nodePort: 30001

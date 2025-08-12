@@ -13,6 +13,8 @@ spec:
         app: environment-manager
     spec:
       hostname: envman
+      imagePullSecrets:
+        - name: my-dockerhub-secret
       volumes:
         - name: configmap-volume
           configMap:
