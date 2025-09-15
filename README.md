@@ -38,6 +38,13 @@ Welcome to the **Energy-Saver-Tests** repository! This repository contains all t
   - [Running Tests](#running-tests)
 - [Results](#results)
   - [Example Results](#example-results)
+  - [Key Results](#key-results)
+  - [Handover Delay Scope](#handover-delay-scope)
+- [Reproduction](#reproduction)
+- [Limitations](#limitations)
+- [Optimization and Solvers](#optimization-and-solvers)
+- [Tested Environment](#tested-environment)
+- [Citation](#citation)
 - [Scripts Overview](#scripts-overview)
   - [Key Scripts](#key-scripts)
   - [Environment Management](#environment-management)
@@ -48,13 +55,12 @@ Welcome to the **Energy-Saver-Tests** repository! This repository contains all t
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Related Repositories](#related-repositories)
 
 ---
 
 ## Introduction
 
-The **Energy-Saver-Tests** repository is designed to streamline the deployment and testing of the Energy Saver application using Kubernetes and Helm. It automates the setup of necessary components, ensuring a seamless and efficient deployment process. This repository supports the experimental evaluations and results presented in our research on enhancing energy efficiency in 6G networks through adaptive network management within O-RAN architectures. It is ideal for developers and DevOps engineers looking to deploy scalable and maintainable applications in a cloud-native environment.
+The **Energy-Saver-Tests** repository streamlines deployment and testing of the Energy Saver application using Kubernetes and Helm. It automates the setup of O-RAN-aligned components and reproduces the experimental evaluations reported in our paper on adaptive, energy-efficient network management for B5G/6G. This repository includes the scripts, Helm charts, and result artifacts used to generate the figures and metrics discussed in the manuscript.
 
 ## Repository Structure
 
@@ -168,6 +174,7 @@ Before you begin, ensure you have met the following requirements:
     - [Near-RT RIC](https://www.o-ran-sc.org/)
     - [Non-RT RIC](https://www.o-ran-sc.org/)
   - **Additional Services**:
+    - [Stadium RF Simulator](https://github.com/alexandre-huff/stadium-rf-sim/tree/TNSM-25)
     - [VES Collector](https://github.com/zanattabruno/ves-collector)
     - [Apache Kafka](https://kafka.apache.org/)
     - [InfluxDB Collector](https://github.com/zanattabruno/influxdb-connector)
@@ -414,6 +421,70 @@ The `results` directory contains various outputs and analyses related to the dep
 
 These results validate the effectiveness of the adaptive network management framework in optimizing energy efficiency within O-RAN architectures, as detailed in our research.
 
+### Key Results
+
+- Scenario: stadium with up to 56 cells (RUs) and up to 8,192 UEs.
+- Energy savings over a 24-hour trace: 72.08% (≈65.44 kWh → ≈18.27 kWh).
+- Active cells: off-peak 3–6 vs. ~35–37 at peak load.
+- Handover delay: ≈0.123–0.204 s per UE across 256–8,192 UEs.
+- Throughput: all UE throughput demands met across all experiments.
+
+Note on energy accounting: the savings metric is first computed in a scale-free manner (from the EIRP trajectory); absolute site energy figures incorporate PA efficiency, BBU/control, and cooling overheads, yielding the 24-hour totals above.
+
+### Handover Delay Scope
+
+The handover delay reported here measures pure RAN handover signaling and execution—from Handover Preparation to Handover Complete and path switch on X2/Xn—plus associated UE procedures (e.g., UL synchronization/RACH and PDCP SN status transfer). It explicitly excludes any xApp/rApp decision or computation time.
+
+## Reproduction
+
+- Full monitoring pipeline (≤ 1,024 UEs): VESPA Manager → ONAP VES → Kafka → rApp. Expect the Monitoring stage to dominate the E2E loop (≈76–84%).
+- Direct Prometheus collection (≥ 2,048 UEs): rApp scrapes Prometheus directly, bypassing VES/VESPA due to ONAP VES payload limits (~1 MB/event) and observed VESPA overhead (~672 s/iteration). In this regime, the loop is handover-bound.
+- Configuration: for ≤ 1,024 UEs, deploy with VES/VESPA enabled; for ≥ 2,048 UEs, bypass VES/VESPA and have the rApp scrape Prometheus directly (see the rApp configuration/README). Ensure image tags (e.g., `TNSM-24`) and service IPs (e.g., `e2term`) match your cluster.
+- Simulator: the stadium scenario is produced with [stadium-rf-sim](https://github.com/alexandre-huff/stadium-rf-sim/tree/TNSM-25), which generates UE distributions, radio metrics (e.g., RSRP/RSRQ/CQI/SINR/BLER), and handover events consumed by E2Sim and the xApps.
+
+## Limitations
+
+- Within each optimization–handover cycle, per-UE locations and per-UE throughput demands are static (no continuous mobility model). Between cycles, users may arrive/depart and cells may be (de)activated.
+- Interference dynamics reflect static placements within a cycle (no motion-induced fluctuations).
+- Cell on/off decisions are applied only after a feasibility check that guarantees every UE’s throughput demand via a Shannon-based throughput constraint.
+- Reported QoS metrics focus on successful demand satisfaction and RAN handover execution delay. Not yet reported: packet-level latency/jitter, throughput percentiles (95/99th), outage probability, BLER, handover success/failure and ping-pong rates, radio link failures (RLF), or transients during simultaneous multi-UE migrations.
+- The optimization objective currently has no explicit penalty for handover overheads or QoS risk.
+
+## Optimization and Solvers
+
+- The formulation including the Shannon-based throughput mapping is an MINLP (NP-hard) and does not scale to very large instances. CPLEX artifacts are provided for smaller benchmarking/validation.
+- The large-scale results reported in the paper use a fast heuristic executed in the rApp (compute time ≤ ~5.8 s across 256–8,192 UEs), while xApp-side processing remains ≤ ~1.9 s.
+
+## Tested Environment
+
+The following versions were used in our experiments (replace with your exact versions if they differ):
+
+- Kubernetes: vX.Y.Z
+- Helm: vA.B.C
+- Prometheus: vP.Q.R
+- Kafka: vK.L.M
+- ONAP VES: tag/commit …
+- VESPA Manager: tag/commit …
+- Docker images: use tag `TNSM-24` for bouncer-rc, e2sim-rc, etc.
+
+## Citation
+
+If you use this repository, please cite our paper:
+
+```bibtex
+@ARTICLE{bruno2024energy,
+  author = {Bruno, Gustavo Z. and Almeida, Gabriel M. and da Silva, Aloízio P. and DaSilva, Luiz A. and Santos, Joao F. and Huff, Alexandre and Cardoso, Kleber V. and Both, Cristiano B.},
+  journal = {In submission process to IEEE Transactions on Network and Service Management},
+  title = {Towards Energy- and QoS-aware Load Balancing for 6G: Leveraging O-RAN to Achieve Sustainable and Energy-Efficient 6G},
+  year = {2024},
+  volume = {XX},
+  number = {Y},
+  pages = {1-1},
+  keywords = {6G, O-RAN, Network Management, Energy Efficiency, QoS, Load Balancing},
+  doi = {}
+}
+```
+
 ## Scripts Overview
 
 The `scripts` directory contains various scripts to manage the deployment and operations of the Energy Saver application.
@@ -450,13 +521,13 @@ Located in the `scripts/envmanager` directory, these scripts handle environment-
 
 This project utilizes several other repositories that contain components essential for the deployment and functioning of the Energy Saver application. Below is a list of these repositories along with brief descriptions:
 
-- [**Energy-Saver-rApp**](https://github.com/zanattabruno/Energy-Saver-rApp): Repository for the **Energy Saver rApp**, which implements energy-efficient algorithms and interfaces with the RIC platform to optimize energy usage in 6G networks.
+- [**Energy-Saver-rApp**](https://github.com/zanattabruno/Energy-Saver-rApp/tree/TNSM-25): Repository for the **Energy Saver rApp**, which implements energy-efficient algorithms and interfaces with the RIC platform to optimize energy usage in 6G networks.
 
-- [**Handover XApp**](https://github.com/alexandre-huff/handover-xapp): Contains the **Handover XApp**, responsible for managing the handover processes between network cells, ensuring seamless connectivity and quality of service.
+- [**Handover XApp**](https://github.com/alexandre-huff/handover-xapp/tree/TNSM-25): Contains the **Handover XApp**, responsible for managing the handover processes between network cells, ensuring seamless connectivity and quality of service.
 
-- [**Monitoring XApp (Bouncer RC)**](https://github.com/alexandre-huff/bouncer-rc/tree/TNSM-24): The repository for the **Monitoring XApp**, also known as Bouncer RC. This component monitors network conditions and performance metrics, providing vital data for adaptive network management.
+- [**Monitoring XApp (Bouncer RC)**](https://github.com/alexandre-huff/bouncer-rc/tree/TNSM-25): The repository for the **Monitoring XApp**, also known as Bouncer RC. This component monitors network conditions and performance metrics, providing vital data for adaptive network management.
 
-- [**E2 Simulator (E2Sim RC)**](https://github.com/alexandre-huff/e2sim-rc/tree/TNSM-24): Repository for the **E2 Node Simulator** used in the deployment, simulating the behavior of E2 Nodes in the network to test and validate xApps and rApps.
+- [**E2 Simulator (E2Sim RC)**](https://github.com/alexandre-huff/e2sim-rc/tree/TNSM-25): Repository for the **E2 Node Simulator** used in the deployment, simulating the behavior of E2 Nodes in the network to test and validate xApps and rApps.
 
 - [**RIC Platform VESPA Manager**](https://github.com/zanattabruno/ric-plt-vespamgr): An updated version of the **VESPA Manager** from the O-RAN Software Community. It manages the VES agents on the RIC platform, handling event streaming and processing.
 
@@ -465,6 +536,8 @@ This project utilizes several other repositories that contain components essenti
 - [**InfluxDB Connector**](https://github.com/zanattabruno/influxdb-connector): The **InfluxDB Connector** interfaces with InfluxDB to store and retrieve time-series data for analysis, essential for monitoring network performance and energy consumption.
 
 - [**E2Sim Environment Manager**](https://github.com/LABORA-INF-UFG/e2sim_environment_manager): Contains the **Environment Manager** for the E2 Simulator, handling environment-specific configurations and deployments to streamline simulation processes.
+
+- [**Stadium RF Simulator**](https://github.com/alexandre-huff/stadium-rf-sim/tree/TNSM-25): Simulator used to emulate high-density stadium scenarios (UE distribution, radio metrics, and mobility events) for developing and testing the O-RAN closed-loop and energy-saving policies.
 
 ## Docker Configuration
 
