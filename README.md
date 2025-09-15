@@ -442,6 +442,8 @@ The handover delay reported here measures pure RAN handover signaling and execut
 - Configuration: for ≤ 1,024 UEs, deploy with VES/VESPA enabled; for ≥ 2,048 UEs, bypass VES/VESPA and have the rApp scrape Prometheus directly (see the rApp configuration/README). Ensure image tags (e.g., `TNSM-24`) and service IPs (e.g., `e2term`) match your cluster.
 - Simulator: the stadium scenario is produced with [stadium-rf-sim](https://github.com/alexandre-huff/stadium-rf-sim/tree/TNSM-25), which generates UE distributions, radio metrics (e.g., RSRP/RSRQ/CQI/SINR/BLER), and handover events consumed by E2Sim and the xApps.
 
+> Important: To use the VES monitoring approach (VESPA Manager → ONAP VES → Kafka → rApp), deploy the Energy-Saver rApp from branch `TNSM-24`. For the direct Prometheus scraping path, use branch `TNSM-25`.
+
 ## Limitations
 
 - Within each optimization–handover cycle, per-UE locations and per-UE throughput demands are static (no continuous mobility model). Between cycles, users may arrive/depart and cells may be (de)activated.
@@ -522,6 +524,7 @@ Located in the `scripts/envmanager` directory, these scripts handle environment-
 This project utilizes several other repositories that contain components essential for the deployment and functioning of the Energy Saver application. Below is a list of these repositories along with brief descriptions:
 
 - [**Energy-Saver-rApp**](https://github.com/zanattabruno/Energy-Saver-rApp/tree/TNSM-25): Repository for the **Energy Saver rApp**, which implements energy-efficient algorithms and interfaces with the RIC platform to optimize energy usage in 6G networks.
+  - Note: Use branch [`TNSM-24`](https://github.com/zanattabruno/Energy-Saver-rApp/tree/TNSM-24) when deploying the VES monitoring approach (VESPA Manager → ONAP VES → Kafka → rApp). Use branch [`TNSM-25`](https://github.com/zanattabruno/Energy-Saver-rApp/tree/TNSM-25) for the direct Prometheus scraping approach.
 
 - [**Handover XApp**](https://github.com/alexandre-huff/handover-xapp/tree/TNSM-25): Contains the **Handover XApp**, responsible for managing the handover processes between network cells, ensuring seamless connectivity and quality of service.
 
