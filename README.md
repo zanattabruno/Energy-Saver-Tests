@@ -538,9 +538,8 @@ This project utilizes several other repositories that contain components essenti
 
 - [**InfluxDB Connector**](https://github.com/zanattabruno/influxdb-connector): The **InfluxDB Connector** interfaces with InfluxDB to store and retrieve time-series data for analysis, essential for monitoring network performance and energy consumption.
 
-- [**E2Sim Environment Manager**](https://github.com/LABORA-INF-UFG/e2sim_environment_manager): Contains the **Environment Manager** for the E2 Simulator, handling environment-specific configurations and deployments to streamline simulation processes.
-
 - [**Stadium RF Simulator**](https://github.com/alexandre-huff/stadium-rf-sim/tree/TNSM-25): Simulator used to emulate high-density stadium scenarios (UE distribution, radio metrics, and mobility events) for developing and testing the O-RAN closed-loop and energy-saving policies.
+  - Note: [E2Sim Environment Manager (legacy)](https://github.com/LABORA-INF-UFG/e2sim_environment_manager): Archived utilities for configuring and deploying the E2 Simulator environment. Kept for reference; superseded by this repository’s e2sim-helm chart and scripts/envmanager.
 
 ## Docker Configuration
 
