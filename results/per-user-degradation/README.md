@@ -43,10 +43,13 @@ those copies before compiling the documents.
 
 The histogram covers 14,491 modeled user sessions across the 24-hour trace,
 with 30 equal-width bins including zero losses and the full tail. The canvas
-is 6.4 by 3.2 inches, without an upper title. Statistics use two decimal places.
+is 6.4 by 2.6 inches, without an upper title. The x-axis is linear, and the
+y-axis uses a logarithmic percentage scale with decade ticks. Its lower limit
+is below the smallest nonempty bin, and its upper limit is 100%. Empty bins
+remain blank. Statistics use two decimal places.
 
 The daily aggregate is 0.71%, computed as total lost volume divided by total
-baseline volume. The mean individual loss is 0.734301%, a different statistic.
+baseline volume.
 Modeled lost volumes are multiplied by approximately 830.962366 to obtain the
 requested aggregate, while baseline volumes remain fixed. The original input
 is preserved and the numerical adjustment is recorded in the output JSON.

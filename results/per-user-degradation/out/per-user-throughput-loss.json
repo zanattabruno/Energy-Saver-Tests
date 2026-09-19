@@ -2,7 +2,7 @@
   "data_kind": "modeled_loss_distribution_with_target_aggregate",
   "source": "/home/vmadmin/Towards Energy/Energy-Saver-Tests/results/per-user-degradation/input/whole_day_sessions.csv",
   "source_sha256": "7be11d566e5377633795c634aab401a19bc3ca669854eb1b9de0eeefba752159",
-  "generator_sha256": "31bd76d851abe4fce86b67359a061ea6305d48c075f0be3b410fddbf6c83997f",
+  "generator_sha256": "40f8c2abc054ebfc742834e6a55d2f557b025dadb4b9469753d121436b6b8641",
   "output_csv_sha256": "c66cdc8b3cd2dec45b5b30746fe1325a8284ecb9fbcef3c148bc0aaae76fd0aa",
   "user_sessions": 14491,
   "daily_aggregate_loss_percent": 0.7100000000000001,

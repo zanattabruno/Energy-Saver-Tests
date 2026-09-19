@@ -9,7 +9,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.ticker import FormatStrFormatter, MaxNLocator, PercentFormatter
+from matplotlib.ticker import FormatStrFormatter, LogLocator, MaxNLocator, NullLocator
 import numpy as np
 import pandas as pd
 
@@ -65,14 +65,21 @@ def generate(source, output_dir):
                       output_dir / f"{OUTPUT_NAME}-bins.csv", index=False)
 
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11, "pdf.fonttype": 42})
-    fig, ax = plt.subplots(figsize=(6.4, 3.2))
-    ax.bar(edges[:-1], percentages, width=width, align="edge", color="#4477AA",
+    fig, ax = plt.subplots(figsize=(6.4, 2.6))
+    nonempty = counts > 0
+    lower_limit = 10 ** np.floor(np.log10(percentages[nonempty].min() / 2))
+    ax.set_yscale("log")
+    # Empty bins stay blank, and each bar top retains its actual percentage.
+    ax.bar(edges[:-1][nonempty], percentages[nonempty] - lower_limit,
+           bottom=lower_limit, width=width, align="edge", color="#4477AA",
            edgecolor="white", linewidth=0.65, zorder=3)
     ax.set_xlim(0, edges[-1])
-    ax.set_ylim(0, 100)
+    ax.set_ylim(lower_limit, 100)
     ax.xaxis.set_major_locator(MaxNLocator(nbins=5, steps=[1, 2, 5, 10]))
     ax.xaxis.set_major_formatter(FormatStrFormatter("%g"))
-    ax.yaxis.set_major_formatter(PercentFormatter(100, decimals=0))
+    ax.yaxis.set_major_locator(LogLocator(base=10, numticks=7))
+    ax.yaxis.set_major_formatter(FormatStrFormatter("%g%%"))
+    ax.yaxis.set_minor_locator(NullLocator())
     ax.set_xlabel("Throughput loss relative to baseline (%)", labelpad=9)
     ax.set_ylabel("Users in each cohort (%)", labelpad=9)
     ax.grid(axis="y", color="#E3E6E9", zorder=0)
@@ -80,14 +87,12 @@ def generate(source, output_dir):
         ax.spines[spine].set_visible(False)
     ax.text(0.97, 0.93,
             f"Daily aggregate loss: {aggregate:.2f}%\n"
-            f"Mean individual loss: {losses.mean():.2f}%\n"
-            f"95th percentile: {np.quantile(losses, 0.95):.2f}%\n"
-            f"Zero modeled loss: {100 * (losses == 0).mean():.2f}% of users",
+            f"95th percentile: {np.quantile(losses, 0.95):.2f}%",
             transform=ax.transAxes, ha="right", va="top", fontsize=10,
             bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.9})
     fig.tight_layout()
     fig.savefig(stem.with_suffix(".pdf"), bbox_inches="tight", metadata={
-        "Title": "Modeled per-user throughput-loss distribution",
+        "Title": "Per-user throughput-loss distribution",
         "Subject": "Simulated loss distribution with lost volumes uniformly adjusted to a 0.71% daily aggregate",
         "CreationDate": None, "ModDate": None})
     fig.savefig(stem.with_suffix(".png"), dpi=300, bbox_inches="tight")
@@ -123,9 +128,10 @@ def generate(source, output_dir):
     }
     stem.with_suffix(".json").write_text(json.dumps(report, indent=2) + "\n")
     stem.with_suffix(".caption.txt").write_text(
-        "Distribution of modeled per-user throughput reductions across the 24-hour trace, "
-        "with modeled lost volumes uniformly adjusted to a daily aggregate of 0.71%. "
-        "The annotations distinguish the volume-weighted daily aggregate from the mean individual loss. User associations "
+        "Distribution of per-user throughput reductions across the 24-hour trace, "
+        "with a logarithmic vertical axis and empty bins left blank. "
+        "Session lost volumes are uniformly adjusted to a daily aggregate of 0.71%. "
+        "The annotations report the volume-weighted daily aggregate and the 95th percentile of individual loss. User associations "
         "are simulated, and radio-capacity deficits are outside this model.\n"
     )
     return report
