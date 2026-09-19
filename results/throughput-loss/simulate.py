@@ -50,8 +50,13 @@ def _rebalance(assignments, active, rng):
     return movers
 
 
-def replay(occupancy, power, config):
-    """Integrate user traffic and interruption windows exactly between trace events."""
+def replay(occupancy, power, config, return_users=False):
+    """Integrate traffic, optionally retaining modeled per-user session accounting.
+
+    With return_users=True, return a third DataFrame containing per-session
+    volumes and a separate accounting window for the first peak-load plateau.
+    The same random draws and traffic model are used in both modes.
+    """
     interval = config["sample_interval_seconds"]
     if not isinstance(interval, int) or interval <= 0 or 86400 % interval:
         raise ValueError("Sample interval must be a positive integer divisor of 86400.")
@@ -80,6 +85,16 @@ def replay(occupancy, power, config):
     outage_end = np.zeros(len(demands))
     totals = np.zeros((len(edges) - 1, 5))  # baseline/lost Gbit, UE/cell seconds, handovers
     events = []
+    if return_users:
+        capacity = int(ue_counts[0] + np.maximum(np.diff(ue_counts), 0).sum())
+        # Stable synthetic IDs survive array compaction when other users leave.
+        user_ids = np.arange(len(demands))
+        next_user_id = len(demands)
+        user_totals = np.zeros((capacity, 4))  # connected seconds, baseline/lost Gbit, HOs
+        peak_totals = np.zeros((capacity, 4))
+        peak_index = int(np.argmax(ue_counts))
+        peak_start = float(ue_time[peak_index]) if peak_index else 0.0
+        peak_end = float(ue_time[peak_index + 1]) if peak_index + 1 < len(ue_time) else 86400.0
 
     for start, end in zip(knots[:-1], knots[1:]):
         ue_index = max(0, np.searchsorted(ue_time, start, side="right") - 1)
@@ -89,17 +104,26 @@ def replay(occupancy, power, config):
         if desired < len(demands):
             keep = np.sort(rng.choice(len(demands), desired, replace=False))
             demands, assignments, outage_end = demands[keep], assignments[keep], outage_end[keep]
+            if return_users:
+                user_ids = user_ids[keep]
         existing = len(demands)
         if desired > existing:
             count = desired - existing
             demands = np.r_[demands, rng.uniform(low, high, count) / 1000]
             assignments = np.r_[assignments, rng.choice(new_active, count)]
             outage_end = np.r_[outage_end, np.zeros(count)]
+            if return_users:
+                user_ids = np.r_[user_ids, np.arange(next_user_id, next_user_id + count)]
+                next_user_id += count
         handovers = 0
         if not np.array_equal(new_active, active):
             movers = _rebalance(assignments, new_active, rng)
             movers = movers[movers < existing]  # Initial attachment is not a handover.
             handovers = len(movers)
+            if return_users:
+                user_totals[user_ids[movers], 3] += 1
+                if peak_start <= start < peak_end:
+                    peak_totals[user_ids[movers], 3] += 1
             # Repeated interruptions of the same UE are combined, not double-counted.
             outage_end[movers] = np.maximum(outage_end[movers], start + interruption)
             events.append({
@@ -114,6 +138,12 @@ def replay(occupancy, power, config):
         duration = end - start
         baseline_volume = float(demands.sum() * duration)
         lost_volume = float(np.dot(demands, np.clip(outage_end - start, 0, duration)))
+        if return_users:
+            values = np.column_stack((np.full(len(demands), duration), demands * duration,
+                                      demands * np.clip(outage_end - start, 0, duration)))
+            user_totals[user_ids, :3] += values
+            if peak_start <= start < peak_end:
+                peak_totals[user_ids, :3] += values
         if not 0 <= lost_volume <= baseline_volume * (1 + 1e-12):
             raise ValueError("Simulated lost volume exceeds available traffic.")
         bin_index = int(start // interval)
@@ -133,7 +163,15 @@ def replay(occupancy, power, config):
     event_columns = ["time_s", "time_h", "active_pci_before", "active_pci_after",
                      "deactivated_pci", "activated_pci", "connected_ues",
                      "simulated_handovers", "data_kind"]
-    return samples, pd.DataFrame(events, columns=event_columns)
+    event_frame = pd.DataFrame(events, columns=event_columns)
+    if return_users:
+        users = pd.DataFrame({"ue_id": [f"sim-{i:06d}" for i in range(next_user_id)]})
+        for prefix, accounting in (("session_", user_totals), ("peak_", peak_totals)):
+            for column, name in enumerate(("connected_seconds", "baseline_gbit", "lost_gbit", "handovers")):
+                users[prefix + name] = accounting[:next_user_id, column]
+        users["data_kind"] = DATA_KIND
+        return samples, event_frame, users
+    return samples, event_frame
 
 
 def generate_inputs(config_path=CONFIG, input_dir=None):

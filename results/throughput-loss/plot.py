@@ -169,7 +169,6 @@ def generate(output_dir):
     ax.set(xlim=(-0.5, 23.5), xticks=np.arange(0, 24, 3), ylim=(0, hourly_loss.max() * 1.38))
     ax.set_xlabel("Time (h)", fontsize=14)
     ax.set_ylabel("Aggregate throughput loss (%)", fontsize=14)
-    ax.set_title("Offline Reconstruction of Hourly Throughput Loss", pad=15, fontsize=14)
     ax.legend(loc="upper left", frameon=True, fontsize=11)
     for hour, value in enumerate(hourly_loss):
         ax.annotate(f"{value:.2f}", (hour, value + 0.025), ha="center", va="bottom", fontsize=9)
