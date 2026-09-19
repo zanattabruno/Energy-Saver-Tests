@@ -1,0 +1,46 @@
+{
+  "data_kind": "simulated_trace_replay",
+  "historical_throughput_observations": false,
+  "configuration": {
+    "occupancy_source": "../energy-over-time/input.csv",
+    "power_source": "../energy-over-time/cell_power_changes_20250816_144851_final.csv",
+    "sample_interval_seconds": 900,
+    "random_seed": 42,
+    "demand_min_mbps": 0.5,
+    "demand_max_mbps": 25.0,
+    "handover_interruption_ms": 40.5
+  },
+  "config_sha256": "358ac2109bf9eb13362a5a2bc9b5e805f1c79530aded819a2928e76b4a5d9d8d",
+  "generator_sha256": "863ad26a5088fb793bf68be4ce1e59ea19cbddda2180bbc50444da53c1c121b2",
+  "sources": {
+    "occupancy_source": {
+      "path": "../energy-over-time/input.csv",
+      "sha256": "6980ccdf0e24f9c4353fe1ea6be4ab2522f7360c79275db4dc6fbdd3f7cfe69a"
+    },
+    "power_source": {
+      "path": "../energy-over-time/cell_power_changes_20250816_144851_final.csv",
+      "sha256": "73bfcb49abe094aa95c5da3b369d746f344ec3305f73691496ef1fd144247d9d"
+    }
+  },
+  "samples_sha256": "f9d9cbb95b03b1385636e7d6c9308a0107dca8699ca405f8dd59e0ef7953af43",
+  "events_sha256": "6af31643c3a4f815490c030b569615a54c86311bdeab1ea8a9034a0418ad1cd8",
+  "interval_count": 96,
+  "duration_seconds": 86400,
+  "cell_transition_count": 264,
+  "simulated_handover_count": 33206,
+  "uncalibrated_daily_loss_percent": 0.0008544309936294397,
+  "software_versions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  },
+  "assumptions": [
+    "Previous-sample occupancy and active-cell states match the as-of alignment in Plot3; first and last states extend to the day endpoints.",
+    "Fractional occupancy is rounded to integer users; departing users are selected at random.",
+    "Each arriving UE draws a uniform demand within the configured range and retains it until departure.",
+    "Demand is fully served outside interruption windows; radio capacity and packet queues are not modeled.",
+    "Active-cell transitions rebalance users evenly across active cells, preserving assignments where possible; this is not a replay of the original optimizer.",
+    "40.5 ms is a configured interruption assumption from the manuscript, not a newly measured delay.",
+    "Cell states and occupancy are archived inputs; UE demands, associations, and handovers are simulated.",
+    "Subsequent calibration to 0.71 percent creates an illustrative loss series, not a new physical prediction from the interruption model."
+  ]
+}

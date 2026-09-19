@@ -1,0 +1,85 @@
+{
+  "data_kind": "Synthetic calibrated illustration; not recovered experimental observations",
+  "original_hourly_series_recovered": false,
+  "independent_validation_of_published_result": false,
+  "target_origin": "Mean markers and box/whisker geometry extracted from the manuscript PDF",
+  "generation_provenance": "Generated offline from archived experiment inputs and published throughput summaries; hourly pairs constructed by calibration",
+  "source_pdf": "input/aggregated_throughput_with_handovers.pdf",
+  "source_pdf_sha256": "b7fc618f082610ecb65dd1a66a18803338c60544987ee320627e6d55db811978",
+  "occupancy_source": "results/energy-over-time/input.csv",
+  "occupancy_source_revision": "c188d3d0c6323962284d5ca58e5bcba0b5842b8d",
+  "occupancy_sha256": "6980ccdf0e24f9c4353fe1ea6be4ab2522f7360c79275db4dc6fbdd3f7cfe69a",
+  "hourly_order_assumption": "Both synthetic distributions paired by rank and assigned to hours in increasing mean occupancy order",
+  "interpolation_assumption": "Piecewise-linear occupancy, constant endpoint extension to 0 and 24 h",
+  "construction": [
+    {
+      "scenario": "All-on baseline",
+      "direction": "upper",
+      "blend": 0.10542151476313354,
+      "initial_mean_gbps": 98.06249878356705,
+      "anchor_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        17,
+        18,
+        23
+      ],
+      "verified_statistics_gbps": {
+        "whislo": 20.99999771863123,
+        "q1": 29.249997522576102,
+        "med": 59.99999679182517,
+        "q3": 157.50000160408743,
+        "whishi": 270.0000007129278,
+        "mean": 100.24999524120734
+      }
+    },
+    {
+      "scenario": "Proposed solution",
+      "direction": "upper",
+      "blend": 0.11668845829551955,
+      "initial_mean_gbps": 97.12280432514723,
+      "anchor_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        17,
+        18,
+        23
+      ],
+      "verified_statistics_gbps": {
+        "whislo": 20.882300478082218,
+        "q1": 29.086419817337934,
+        "med": 59.27188369125752,
+        "q3": 154.91539080524262,
+        "whishi": 269.5527454954195,
+        "mean": 99.54088522954173
+      }
+    }
+  ],
+  "preserved_constraints": "Both means, quartiles, and whisker endpoints from the original figure",
+  "daily_formula": "100 * (sum(B_h) - sum(S_h)) / sum(B_h), equal one-hour durations",
+  "computed_daily_reduction_percent": 0.707341691098802,
+  "displayed_daily_reduction_percent": 0.71,
+  "unweighted_mean_hourly_reduction_percent": 0.7060769621754304,
+  "minimum_synthetic_hourly_reduction_percent": 0.136912826176329,
+  "maximum_synthetic_hourly_reduction_percent": 1.6410227127119796,
+  "csv_sha256": "cc79cf6a2aa0eb30dacb25933715fb6f6e0e1630eb5598f774d4d19858bd8451",
+  "plot_style_reference": "Paper Fig. 11; results/xApp-handover/Plot4.ipynb",
+  "library_versions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2"
+  },
+  "limitations": [
+    "Many hourly sequences share these summaries; the constructed ordering is not identified by the evidence.",
+    "Whiskers are used as synthetic sample bounds; the original number of observations is unknown.",
+    "No handover counts, timing, interruption duration, or per-user loss is inferred from the calibration.",
+    "Small synthetic hourly reductions are consequences of the chosen construction, not new scientific findings."
+  ]
+}

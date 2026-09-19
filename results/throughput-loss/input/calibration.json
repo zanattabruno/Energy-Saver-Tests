@@ -1,0 +1,5 @@
+{
+  "target_daily_reduction_percent": 0.71,
+  "target_origin": "User-specified calibrated 24-hour aggregate",
+  "note": "This target is imposed on a separate derived loss series. Raw collected rates remain unchanged."
+}

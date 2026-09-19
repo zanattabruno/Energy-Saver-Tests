@@ -1,0 +1,64 @@
+{
+  "source_pdf": "input/aggregated_throughput_with_handovers.pdf",
+  "source_sha256": "b7fc618f082610ecb65dd1a66a18803338c60544987ee320627e6d55db811978",
+  "method": "Vector extraction of axis ticks and mean-marker centers with mutool",
+  "axis_values_gbps": [
+    0.0,
+    50.0,
+    100.0,
+    150.0,
+    200.0,
+    250.0,
+    300.0
+  ],
+  "axis_y_coordinates": [
+    27.746876,
+    55.80021,
+    83.85354,
+    111.906879,
+    139.9602,
+    168.01354,
+    196.06688
+  ],
+  "mean_markers": [
+    {
+      "x": 121.21313,
+      "marker_center_y": 83.993808,
+      "mean_gbps": 100.24999524120734
+    },
+    {
+      "x": 246.70813,
+      "marker_center_y": 83.59595,
+      "mean_gbps": 99.54088522954171
+    }
+  ],
+  "baseline_mean_gbps": 100.24999524120734,
+  "solution_mean_gbps": 99.54088522954171,
+  "absolute_difference_gbps": 0.7091100116656293,
+  "formula": "100 * (baseline_mean_gbps - solution_mean_gbps) / baseline_mean_gbps",
+  "recovered_reduction_percent": 0.7073416910988062,
+  "rounded_reduction_percent": 0.71,
+  "source_annotation": "0.71% data loss",
+  "boxplot_summaries_gbps": [
+    {
+      "label": "All-on baseline",
+      "mean": 100.24999524120734,
+      "whislo": 20.99999771863123,
+      "q1": 29.249997522576102,
+      "med": 59.99999679182517,
+      "q3": 157.50000160408743,
+      "whishi": 270.0000007129278
+    },
+    {
+      "label": "Proposed solution",
+      "mean": 99.54088522954171,
+      "whislo": 20.882300478082218,
+      "q1": 29.086419817337934,
+      "med": 59.27188369125752,
+      "q3": 154.91539080524262,
+      "whishi": 269.5527454954195
+    }
+  ],
+  "scope": "Numerical verification of the published summary, not experimental reproduction",
+  "hourly_series_recovered": false
+}

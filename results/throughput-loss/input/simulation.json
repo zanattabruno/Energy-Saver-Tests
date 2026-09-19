@@ -1,0 +1,9 @@
+{
+  "occupancy_source": "../energy-over-time/input.csv",
+  "power_source": "../energy-over-time/cell_power_changes_20250816_144851_final.csv",
+  "sample_interval_seconds": 900,
+  "random_seed": 42,
+  "demand_min_mbps": 0.5,
+  "demand_max_mbps": 25.0,
+  "handover_interruption_ms": 40.5
+}

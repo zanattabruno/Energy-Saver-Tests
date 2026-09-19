@@ -421,6 +421,13 @@ The `results` directory contains various outputs and analyses related to the dep
 
 These results validate the effectiveness of the adaptive network management framework in optimizing energy efficiency within O-RAN architectures, as detailed in our research.
 
+The additional [hourly throughput-loss figure](results/throughput-loss/README.md)
+is generated offline from archived experiment inputs and published throughput
+summaries. Its hourly values are constructed by calibration to the reported
+0.71% aggregate reduction, rather than recovered hourly measurements. The folder
+contains `Plot.ipynb`, a standalone Python generator, documented inputs, and
+PDF, PNG, CSV, and JSON outputs in `out/`.
+
 ### Key Results
 
 - Scenario: stadium with up to 56 cells (RUs) and up to 8,192 UEs.
