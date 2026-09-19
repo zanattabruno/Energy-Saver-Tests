@@ -1,0 +1,44 @@
+{
+  "data_kind": "trace_driven_handover_only_user_sessions",
+  "historical_per_user_measurements": false,
+  "configuration": {
+    "occupancy_source": "../energy-over-time/input.csv",
+    "power_source": "../energy-over-time/cell_power_changes_20250816_144851_final.csv",
+    "sample_interval_seconds": 900,
+    "random_seed": 42,
+    "demand_min_mbps": 0.5,
+    "demand_max_mbps": 25.0,
+    "handover_interruption_ms": 40.5
+  },
+  "configuration_sha256": "358ac2109bf9eb13362a5a2bc9b5e805f1c79530aded819a2928e76b4a5d9d8d",
+  "generator_sha256": "6b8824953d39c4211eeedba29cd8c12200d90d9f8c8d24aae497bf4f2ceeed2f",
+  "engine_sha256": "736c2838d071a12ed45fabd64f55a241339e9a629c9217b60b1e7184fdf06341",
+  "sources": {
+    "occupancy_source": {
+      "path": "/home/vmadmin/Towards Energy/Energy-Saver-Tests/results/energy-over-time/input.csv",
+      "sha256": "6980ccdf0e24f9c4353fe1ea6be4ab2522f7360c79275db4dc6fbdd3f7cfe69a"
+    },
+    "power_source": {
+      "path": "/home/vmadmin/Towards Energy/Energy-Saver-Tests/results/energy-over-time/cell_power_changes_20250816_144851_final.csv",
+      "sha256": "73bfcb49abe094aa95c5da3b369d746f344ec3305f73691496ef1fd144247d9d"
+    }
+  },
+  "output_csv_sha256": "7be11d566e5377633795c634aab401a19bc3ca669854eb1b9de0eeefba752159",
+  "user_sessions": 14491,
+  "baseline_volume_gbit": 1896392.422365901,
+  "lost_volume_gbit": 16.20336461753437,
+  "daily_aggregate_loss_percent": 0.0008544309936294397,
+  "assumptions": [
+    "Archived occupancy and active-cell states are held until the next sample, with endpoint extension.",
+    "Occupancy is rounded to integers. Departures are random and arrivals receive new synthetic session IDs.",
+    "Each session draws a constant uniform demand within the configured bounds and random seed.",
+    "Baseline serves demand without interruption. The solution serves the same demand except during modeled handovers.",
+    "Cell-state transitions rebalance users evenly, rather than replaying original optimizer or RF associations.",
+    "Overlapping interruptions are integrated as their union and truncated at departure or day end.",
+    "Interference, cell-capacity deficits, scheduling and retransmissions are outside this model."
+  ],
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  }
+}

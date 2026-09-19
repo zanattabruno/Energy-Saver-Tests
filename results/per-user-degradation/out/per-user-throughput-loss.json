@@ -1,0 +1,29 @@
+{
+  "data_kind": "modeled_loss_distribution_with_target_aggregate",
+  "source": "/home/vmadmin/Towards Energy/Energy-Saver-Tests/results/per-user-degradation/input/whole_day_sessions.csv",
+  "source_sha256": "7be11d566e5377633795c634aab401a19bc3ca669854eb1b9de0eeefba752159",
+  "generator_sha256": "31bd76d851abe4fce86b67359a061ea6305d48c075f0be3b410fddbf6c83997f",
+  "output_csv_sha256": "c66cdc8b3cd2dec45b5b30746fe1325a8284ecb9fbcef3c148bc0aaae76fd0aa",
+  "user_sessions": 14491,
+  "daily_aggregate_loss_percent": 0.7100000000000001,
+  "source_daily_aggregate_loss_percent": 0.0008544309936294164,
+  "target_daily_aggregate_loss_percent": 0.71,
+  "loss_volume_multiplier": 830.9623659414455,
+  "method": "Multiply modeled user lost volumes by target/source aggregate; keep baseline volumes fixed.",
+  "mean_individual_loss_percent": 0.7343007495761567,
+  "median_individual_loss_percent": 0.4870311233306148,
+  "p95_individual_loss_percent": 2.3873761393872757,
+  "maximum_individual_loss_percent": 17.10081256466589,
+  "zero_loss_users_percent": 36.76764888551515,
+  "bin_width_percentage_points": 0.5700270860588901,
+  "histogram_bin_count": 30,
+  "individual_loss_formula": "100 * lost_gbit / baseline_gbit",
+  "aggregate_formula": "100 * sum(lost_gbit) / sum(baseline_gbit)",
+  "limitations": [
+    "The target aggregate is imposed. Agreement with it is not independent experimental validation.",
+    "Adjusted losses are not predictions of the original 40.5 ms interruption model.",
+    "The distribution is conditional on simulated user associations and handover interruptions.",
+    "No measured individual losses or 77.5% QoS-unsatisfied subgroup are identified.",
+    "The daily aggregate is weighted by baseline data volume and differs from the mean individual percentage loss."
+  ]
+}
