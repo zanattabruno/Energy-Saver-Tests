@@ -43,10 +43,9 @@ those copies before compiling the documents.
 
 The histogram covers 14,491 modeled user sessions across the 24-hour trace,
 with 30 equal-width bins including zero losses and the full tail. The canvas
-is 6.4 by 2.6 inches, without an upper title. The x-axis is linear, and the
-y-axis uses a logarithmic percentage scale with decade ticks. Its lower limit
-is below the smallest nonempty bin, and its upper limit is 100%. Empty bins
-remain blank. Statistics use two decimal places.
+is 6.4 by 3.2 inches, without an upper title. Both axes are linear, with
+"Throughput degradation (%)" on the x-axis and "User sessions (%)" on the
+y-axis. The y-axis starts at zero. Empty bins remain blank. Statistics use two decimal places.
 
 The daily aggregate is 0.71%, computed as total lost volume divided by total
 baseline volume.
@@ -60,3 +59,10 @@ configuration, seed, source hashes, and assumptions. The adjusted distribution
 is conditional on these simulated associations and the uniform volume scaling.
 It is not measured per-user evidence or a prediction of the original interruption
 model, and does not identify the 77.5% of users below their QoS demands.
+
+The shaded region and dashed line mark 2.39% degradation, the 95th percentile
+rounded to two decimals. The annotation counts 13,766 of 14,491 modeled
+sessions (94.9969%, displayed as 95.0%) at or below that threshold using
+individual values, not histogram-bin totals. Its denominator includes all
+modeled sessions and its reference is the all-on baseline, not requested
+throughput or the subgroup of QoS-unsatisfied UEs.
